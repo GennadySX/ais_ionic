@@ -1,0 +1,38 @@
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+
+.tab-panel {
+  background: rgba(#3171e0, 0.7) !important;
+}
+
+  .tabs-md .tabbar,.tabs-ios .tabbar {
+    background: linear-gradient(rgb(3, 132, 218), rgb(2, 7, 46));
+}
+
+ion-toolbar, ion-header {
+  --background: linear-gradient( rgb(2, 3, 46) ,rgb(3, 132, 218));
+  color: white;
+}
+
+.panel-body {
+  --background: rgba(7, 7, 7, 0.9);
+}
+
+
+.cabinet-input-panel , ion-item ,  ion-input {
+  --background: rgba(7, 7, 7, 0.9);
+  color: #ffffff;
+}
+
+ion-input {
+  margin-left: 10px;
+}
+
+.cabinet-input-panel {
+  --background: rgba(7, 7, 7, 0.9);
+  padding-bottom: 0;
+  padding-top: 0;
+}

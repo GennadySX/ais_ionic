@@ -1,1 +1,17 @@
 
+.tab-panel, ion-tab-button {
+  border-color: #1e2023;
+  background: linear-gradient(rgb(6, 6, 12), rgb(9, 12, 9));
+}
+
+.tabs-md .tabbar,.tabs-ios .tabbar {
+  background: linear-gradient(rgb(3, 132, 218), rgb(2, 3, 46));
+}
+
+.tab-has-icon {
+  color: #e0bb82;
+}
+
+.tab-selected {
+  color: #ffffff;
+}

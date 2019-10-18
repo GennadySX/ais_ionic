@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Кабинет
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="panel-body">
+    <!-- Inputs with labels -->
+    <ion-item>
+        <ion-label>Login</ion-label>
+        <ion-input type="email" value="" [(ngModel)]="login_up" placeholder="login" required ></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label>Password</ion-label>
+        <ion-input type="password" [(ngModel)]="password_up" placeholder="*******" required></ion-input>
+    </ion-item>
+        <ion-button expand="full" (click)="SendSignUp(login_up, password_up)">Sign Up</ion-button>
+  <!-- Inputs with labels -->
+    <ion-item>
+        <ion-label>Login</ion-label>
+        <ion-input type="text" value="" [(ngModel)]="login" placeholder="login"  ></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label>Password</ion-label>
+        <ion-input type="password" [(ngModel)]="password" placeholder="*******"></ion-input>
+    </ion-item>
+        <ion-button expand="full" (click)="SendLogin(login, password)">Sign In</ion-button>
+
+
+</ion-content>
