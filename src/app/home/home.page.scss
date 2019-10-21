@@ -1,11 +1,13 @@
 
 .tab-panel, ion-tab-button {
   border-color: #1e2023;
-  background: linear-gradient(rgb(6, 6, 12), rgb(9, 12, 9));
+  --background: #1f2229;
+  box-shadow: #6d9160 5px 5px 10px;
+
 }
 
 .tabs-md .tabbar,.tabs-ios .tabbar {
-  background: linear-gradient(rgb(3, 132, 218), rgb(2, 3, 46));
+  background: linear-gradient(rgb(3, 132, 218), rgb(12, 23, 33));
 }
 
 .tab-has-icon {

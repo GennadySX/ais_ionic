@@ -14,7 +14,7 @@ export class LoginPage implements OnInit {
     password: '';
 
     constructor(
-        private authService: AuthService
+        private authService: AuthService,
     ) {
     }
 
@@ -25,16 +25,18 @@ export class LoginPage implements OnInit {
 
         if (this.email && this.password) {
             const logData = {
-                email: this.email,
-                password: this.password
+                "login":this.email,
+                "password":this.password
             };
 
+
             console.log('result: ', this.email, this.password);
-            /* axios.post(this.authService.loginHref, logData).then(res => {
-                 if (res.data.token) {
-                     this.authService.login(res.data.token);
-                 }
-             });*/
+            axios.post(this.authService.href.login, logData).then(res => {
+                console.log(res.data)
+                if (res.data.token) {
+                    this.authService.login(res.data.token);
+                }
+            });
         }
     }
 }

@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>profile</ion-title>
+    <ion-title>Профиль</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -8,4 +8,24 @@
   <ion-button (click)="logout()">
     Logout
   </ion-button>
+  <br>
+    <ion-button (click)="getToken()">
+    Token Console
+  </ion-button>
+  <ion-button (click)="getUserData()">
+    User Data Console
+  </ion-button>
+  <ion-card>
+
+
+  <ion-item>
+    <ul>
+      <li>{{userData.id_user}}</li>
+      <li>
+        <img [src]="userData.img" alt=""></li>
+      <li>{{userData.login}}</li>
+    </ul>
+  </ion-item>
+  </ion-card>
 </ion-content>
+
