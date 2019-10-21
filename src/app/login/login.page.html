@@ -1,13 +1,24 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>login</ion-title>
+    <ion-title>Войти</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-button (click)="loginUser()">
-    login
-  </ion-button>
+<ion-content >
 
-  <a [routerLink]="['/dashboard']">Go to dashboard</a>
+
+  <ion-card>
+    <ion-item>
+      <ion-label position="floating" >Ваш email:</ion-label>
+      <ion-input  type="email"  [(ngModel)]="email"  pattern="[A-Za-z0-9._%+-]{3,}@[a-zA-Z]{3,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating" >Ваш пароль:</ion-label>
+      <ion-input  type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+  </ion-card>
+  <ion-button (click)="loginUser()" >Войти</ion-button>
+    <br>
+  <a href="/register">У вас нет аккаунта?</a>
 </ion-content>

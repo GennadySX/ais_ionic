@@ -11,6 +11,8 @@ export class AuthService {
 
   authState = new BehaviorSubject(false);
 
+  loginHref = '';
+
   constructor(
       private router: Router,
       private storage: Storage,
@@ -25,7 +27,7 @@ export class AuthService {
 
 
   ifLoggedIn() {
-    this.storage.get('USER_INFO').then((res) => {
+    this.storage.get('token').then((res) => {
       if (res) {
         this.authState.next(true);
       }
@@ -34,20 +36,16 @@ export class AuthService {
 
 
 
-  login() {
-    const dummy_res =  {
-      user_id: '007',
-      user_name: 'test'
-    };
-    this.storage.set('USER_INFO', dummy_res).then((res) => {
-      this.router.navigate(['dashboard']);
+  login(token) {
+    this.storage.set('token', token).then((res) => {
+      this.router.navigate(['home']);
       this.authState.next(true);
     });
   }
 
 
   logout() {
-    this.storage.remove('USER_INFO').then(() => {
+    this.storage.remove('token').then(() => {
       this.router.navigate(['login']);
       this.authState.next(false);
     });

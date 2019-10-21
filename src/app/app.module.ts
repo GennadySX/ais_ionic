@@ -10,24 +10,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import {LoginPage} from './login/login.page';
-import {FormComponent} from './login/form/form.component';
-import {RegisterComponent} from './login/register/register.component';
+import { IonicStorageModule } from '@ionic/storage';
 
 import {AuthService} from './api/auth.service';
-import {AuthUserService} from './api/auth-user.service';
+import {HomePage} from './home/home.page';
 
 @NgModule({
-  declarations: [AppComponent, FormComponent, RegisterComponent],
+  declarations: [AppComponent],
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  imports: [
+      BrowserModule,
+      IonicModule.forRoot(),
+      AppRoutingModule,
+      IonicStorageModule.forRoot()
+  ],
   providers: [
     StatusBar,
     SplashScreen,
-      AuthService,
-      AuthUserService,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
-  bootstrap: [AppComponent, RegisterComponent, FormComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule {
 
