@@ -13,7 +13,6 @@ import {LoginPage} from './login/login.page';
 import {FormComponent} from './login/form/form.component';
 import {RegisterComponent} from './login/register/register.component';
 
-import {AuthGuard} from './auth.guard';
 import {AuthService} from './api/auth.service';
 import {AuthUserService} from './api/auth-user.service';
 
@@ -24,11 +23,15 @@ import {AuthUserService} from './api/auth-user.service';
   providers: [
     StatusBar,
     SplashScreen,
-      AuthGuard,
       AuthService,
       AuthUserService,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent, RegisterComponent, FormComponent]
 })
-export class AppModule {}
+export class AppModule {
+
+  constructor() {
+  }
+
+}
