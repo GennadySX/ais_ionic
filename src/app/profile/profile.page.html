@@ -16,10 +16,9 @@
 
   <ion-col class="avatar" >
     <img [src]="userData.img" class="avatar_img" alt="">
-    <ion-label class="change_avatar" for="#file">
+    <ion-label class="change_avatar" (click)="getFile()">
       <ion-icon name="create" class="icon_upload"></ion-icon>
     </ion-label>
-    <ion-input type="file" id="file"></ion-input>
   </ion-col>
 </div>
 
@@ -28,7 +27,7 @@
   <ion-card>
     <ion-item>
       <ul>
-        <li>{{userData.id_user}}</li>
+        <li (click)="checkFile()" >{{userData.id_user}}</li>
         <li>
         </li>
         <li>{{userData.login}}</li>

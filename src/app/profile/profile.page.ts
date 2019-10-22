@@ -13,6 +13,9 @@ export class ProfilePage implements OnInit {
     token = '';
     username = '';
     userData = {};
+    input = '';
+    img = '';
+    imgData = '';
 
     constructor(
         private authGuard: AuthGuard,
@@ -33,7 +36,7 @@ export class ProfilePage implements OnInit {
     getToken() {
         this.storage.get('token').then((value) => {
             this.token = value;
-            console.log('init token ', this.token);
+           // console.log('init token ', this.token);
             this.getUserData()
         });
         return true;
@@ -49,5 +52,43 @@ export class ProfilePage implements OnInit {
                 this.userData = res.data;
             }
         });
+    }
+
+
+    getFile() {
+        this.input = document.createElement('input');
+        this.input.type = 'file';
+        this.input.accept = 'image/*';
+
+        this.input.onchange = e => {
+            this.img = e.target.files[0];
+            this.imgtoBase64(this.img, this.token)
+        }
+        this.input.click();
+    }
+
+    imgtoBase64(file, token) {
+        var reader = new FileReader();
+        reader.onload = function () {
+            let imgLog;
+            if (reader.result) {
+                imgLog = {
+                    "token": token,
+                    "img": reader.result
+                };
+                console.log(imgLog);
+                axios.post('http://studentapi.myknitu.ru/updateuserimage/', imgLog).then(res => {
+                    console.log(res.data);
+                    if (res.data.status) {
+                        window.location.reload()
+                    }
+                })
+            }
+        };
+        reader.readAsDataURL(file)
+    }
+
+    checkFile() {
+        console.log(this.input)
     }
 }
