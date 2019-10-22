@@ -24,10 +24,9 @@ export class LoginPage implements OnInit {
     loginUser() {
 
         if (this.email && this.password) {
-            const logData = {
-                "login":this.email,
-                "password":this.password
-            };
+            const logData = {"login":"as@as.as",
+                "password":"123456"}
+
 
 
             console.log('result: ', this.email, this.password);

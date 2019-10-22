@@ -10,7 +10,7 @@ import axios from 'axios';
     styleUrls: ['./profile.page.scss'],
 })
 export class ProfilePage implements OnInit {
-    token = '1711a44a-bd0f-4f30-a5e1-71d5b0b2cad7';
+    token = '';
     username = '';
     userData = {};
 
@@ -22,11 +22,9 @@ export class ProfilePage implements OnInit {
     }
 
     ngOnInit() {
-        if (this.getToken()) {
-            this.getUserData();
-        }
-
+        this.getToken();
     }
+
 
     logout() {
         this.authService.logout();
@@ -35,13 +33,14 @@ export class ProfilePage implements OnInit {
     getToken() {
         this.storage.get('token').then((value) => {
             this.token = value;
-            console.log(value);
+            console.log('init token ', this.token);
+            this.getUserData()
         });
-        return this.token;
+        return true;
     }
 
     getUserData() {
-
+        console.log('axios token ', this.token);
         const tokenLog = {'token': this.token};
         axios.post('http://studentapi.myknitu.ru/getuser/', tokenLog).then(res => {
             console.log(res.data);

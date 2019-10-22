@@ -1,6 +1,18 @@
 
 ion-header {
+  .head_panel {
+    display: flex;
+    button {
+      background: transparent;
+      color: #e6380f;
+      margin-right: 10px;
+      font-size: 1.5rem;
+      border-radius: 5px;
+    }
+  }
   ion-toolbar {
+    display: flex;
+    justify-content: space-around;
     --background: #1f2229;
     color: #fcfaff;
     box-shadow: #172029 0 0 15px;
@@ -9,15 +21,17 @@ ion-header {
 
 ion-content {
   //--background: url('../../assets/log_bkg.jpg') 0 0/100% 100% no-repeat;
-  --background: palegoldenrod;
+  --background: #1f2229;
 
   ion-card {
     position: relative;
     top: 130px;
+
     ion-item {
       --background: #3d4048;
       color: rgba(#fff, 0.5);
     }
+
     //box-shadow: #3d4048 0 5px 10px;
   }
 
@@ -47,4 +61,55 @@ a {
   font-size: 1rem;
   color: #fcfaff;
   text-shadow: 0 0 15px #fcfaff;
+}
+
+.content_div {
+  background: gray;
+  .avatar {
+
+    border: none;
+    box-shadow: none;
+    position: relative;
+    top: 20px;
+
+    .avatar_img {
+      position: relative;
+      left: 15%;
+      top: 5px;
+      transform: translateX(-50%);
+      --background: #1f2229;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    .change_avatar {
+      background: #e6bc0a;
+      font-size: 1.7rem;
+      width: 100px !important;
+      color: #344352;
+      position: relative;
+      right: 10px;
+      top: -10px;
+      border-radius: 50%;
+      .icon_upload {
+        padding-left: 5px;
+        position: relative;
+        top: 3px;
+        left: -2px;
+      }
+    }
+  }
+}
+
+
+.data_panel {
+  position: relative;
+  left: 50%;
+  .name_p, .family_p , .login_p {
+    position: absolute;
+    top: 10px;
+  }
+  .login_p {
+    top: 40px;
+  }
 }

@@ -1,31 +1,48 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Профиль</ion-title>
+    <div class="head_panel">
+      <ion-title>Профиль </ion-title>
+      <button (click)="logout()"> <ion-icon name="exit"></ion-icon></button>
+    </div>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-button (click)="logout()">
-    Logout
-  </ion-button>
+<div class="content_div">
+  <div class="data_panel">
+    <h3 class="name_p">{{userData.user}} {{userData.family}}</h3>
+    <h3 class="login_p">{{userData.login}}</h3>
+  </div>
+
+  <ion-col class="avatar" >
+    <img [src]="userData.img" class="avatar_img" alt="">
+    <ion-label class="change_avatar" for="#file">
+      <ion-icon name="create" class="icon_upload"></ion-icon>
+    </ion-label>
+    <ion-input type="file" id="file"></ion-input>
+  </ion-col>
+</div>
+
+
+
+  <ion-card>
+    <ion-item>
+      <ul>
+        <li>{{userData.id_user}}</li>
+        <li>
+        </li>
+        <li>{{userData.login}}</li>
+      </ul>
+    </ion-item>
+  </ion-card>
+
   <br>
     <ion-button (click)="getToken()">
-    Token Console
+   Данный токен
   </ion-button>
   <ion-button (click)="getUserData()">
-    User Data Console
+    Данные в консоле
   </ion-button>
-  <ion-card>
 
-
-  <ion-item>
-    <ul>
-      <li>{{userData.id_user}}</li>
-      <li>
-        <img [src]="userData.img" alt=""></li>
-      <li>{{userData.login}}</li>
-    </ul>
-  </ion-item>
-  </ion-card>
 </ion-content>
 

@@ -31,7 +31,7 @@ export class AppComponent {
 
             this.authService.authState.subscribe(state => {
                 if (state) {
-                    this.router.navigate(['home']);
+                    this.router.navigate(['home/profile']);
                 }
             });
         });

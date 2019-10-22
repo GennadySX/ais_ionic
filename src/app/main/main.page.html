@@ -1,9 +1,13 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>main</ion-title>
+    <ion-title>Главный</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+<ion-card *ngFor="let img of imgData; let i = index">
+  <img [src]="img.img" class="avatar_img" alt="">
+</ion-card>
+  
+  
 </ion-content>
