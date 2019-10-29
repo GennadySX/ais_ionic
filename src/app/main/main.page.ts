@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import axios from 'axios';
+import {HttpClient, HttpHeaders } from '@angular/common/http';
 import {AuthService} from "../api/auth.service";
 import {Storage} from "@ionic/storage";
 import {Platform} from "@ionic/angular";
@@ -11,17 +12,18 @@ import {Platform} from "@ionic/angular";
 })
 export class MainPage implements OnInit {
 
-  token = '';
-  userList = {};
+  token: '';
+  userList: any[];
   constructor(
       private auth: AuthService,
       private storage: Storage,
       private platform: Platform,
+      public http: HttpClient,
+
   ) { }
 
   ngOnInit() {
-
-this.getToken()
+    this.getToken()
 
   }
 
@@ -31,12 +33,21 @@ this.getToken()
       "token": this.token
     }
     console.log(load)
-    axios.post("http://studentapi.myknitu.ru/listusers/", load).then( res => {
+    /*axios.post("http://studentapi.myknitu.ru/listusers/", load).then( res => {
       if (res.data.users){
         this.userList = res.data.users;
         console.log(this.userList)
       }
-    })
+    })*/
+    this.http.post("http://studentapi.myknitu.ru/listusers/", load).subscribe(res => {
+      console.log(res)
+      if (res.users) {
+        this.userList = res.users;
+        console.log(this.userList);
+      }
+    });
+
+
   }
 
 

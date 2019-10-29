@@ -58,36 +58,11 @@ export class ProfilePage implements OnInit {
 
 
     getFile() {
-        this.input = document.createElement('input');
-        this.input.type = 'file';
-        this.input.accept = 'image/*';
 
-        this.input.onchange = e => {
-            this.img = e.target.files[0];
-            this.imgtoBase64(this.img, this.token)
-        }
-        this.input.click();
     }
 
     imgtoBase64(file, token) {
-        var reader = new FileReader();
-        reader.onload = function () {
-            let imgLog;
-            if (reader.result) {
-                imgLog = {
-                    "token": token,
-                    "img": reader.result
-                };
-                console.log(imgLog);
-                axios.post('http://studentapi.myknitu.ru/updateuserimage/', imgLog).then(res => {
-                    console.log(res.data);
-                    if (res.data.status) {
-                        window.location.reload()
-                    }
-                })
-            }
-        };
-        reader.readAsDataURL(file)
+
     }
 
     checkFile() {
