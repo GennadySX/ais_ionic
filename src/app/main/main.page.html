@@ -5,9 +5,11 @@
 </ion-header>
 
 <ion-content>
-<ion-card *ngFor="let img of imgData; let i = index">
-  <img [src]="img.img" class="avatar_img" alt="">
-</ion-card>
-  
+
+  <ion-card   *ngFor="let user of userList; index as i" [attr.data-index]="i"  >
+        <p>{{user.family}}</p>
+        <p>{{user.user}}</p>
+        <img [src]="user.img"  alt="">
+  </ion-card>
   
 </ion-content>

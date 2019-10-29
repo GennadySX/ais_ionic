@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import axios from 'axios';
+import {AuthService} from "../api/auth.service";
+import {Storage} from "@ionic/storage";
+import {Platform} from "@ionic/angular";
 
 @Component({
   selector: 'app-main',
@@ -7,9 +11,43 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPage implements OnInit {
 
-  constructor() { }
+  token = '';
+  userList = {};
+  constructor(
+      private auth: AuthService,
+      private storage: Storage,
+      private platform: Platform,
+  ) { }
 
   ngOnInit() {
+
+this.getToken()
+
+  }
+
+  getUserList() {
+
+    let load = {
+      "token": this.token
+    }
+    console.log(load)
+    axios.post("http://studentapi.myknitu.ru/listusers/", load).then( res => {
+      if (res.data.users){
+        this.userList = res.data.users;
+        console.log(this.userList)
+      }
+    })
+  }
+
+
+
+  getToken() {
+    this.storage.get('token').then((value) => {
+      this.token = value;
+       //console.log('init token ', this.token);
+      this.getUserList();
+    });
+    return true;
   }
 
 }

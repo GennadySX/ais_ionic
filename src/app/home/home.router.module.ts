@@ -13,7 +13,8 @@ const routes: Routes = [
                     {
                         path: '',
                         loadChildren: () =>
-                            import('../profile/profile.module').then(m => m.ProfilePageModule)
+                            import('../profile/profile.module').then(m => m.ProfilePageModule),
+                        data: { preload: true }
                     }
                 ],
             },
@@ -22,7 +23,8 @@ const routes: Routes = [
                 children: [
                     {
                         path: '',
-                        loadChildren: () => import('../main/main.module').then( m => m.MainPageModule)
+                        loadChildren: () => import('../main/main.module').then( m => m.MainPageModule),
+                        data: { preload: true }
                     }
                 ]
             },

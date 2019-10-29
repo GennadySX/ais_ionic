@@ -11,6 +11,7 @@ export class AuthService {
 
     authState = new BehaviorSubject(false);
 
+    token = ""
 
     href = {
         login: 'http://studentapi.myknitu.ru/auth/',
@@ -30,6 +31,8 @@ export class AuthService {
         });
     }
 
+
+ 
 
     ifLoggedIn() {
         this.storage.get('token').then((res) => {

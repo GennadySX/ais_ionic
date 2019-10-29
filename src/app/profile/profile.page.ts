@@ -3,6 +3,7 @@ import {AuthService} from '../api/auth.service';
 import {AuthGuard} from '../api/auth.guard';
 import {Storage} from '@ionic/storage';
 import axios from 'axios';
+import {MainPage} from "../main/main.page";
 
 @Component({
     selector: 'app-profile',
@@ -20,7 +21,7 @@ export class ProfilePage implements OnInit {
     constructor(
         private authGuard: AuthGuard,
         private authService: AuthService,
-        private storage: Storage
+        private storage: Storage,
     ) {
     }
 
@@ -38,6 +39,7 @@ export class ProfilePage implements OnInit {
             this.token = value;
            // console.log('init token ', this.token);
             this.getUserData()
+
         });
         return true;
     }
