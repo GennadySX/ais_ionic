@@ -43,10 +43,12 @@ ion-button:focus {
 
 
 a {
+  width: 100%;
   position: absolute;
+  text-align: center;
   transform: translateX(-50%);
   left: 51%;
-  top: 57%;
+  bottom: 5%;
   font-size: 1rem;
   color: #fcfaff;
   text-shadow: 0 0 15px #fcfaff;

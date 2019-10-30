@@ -9,6 +9,9 @@ export class GalleryPage implements OnInit {
 
   constructor() { }
 
+
+  titlePage = 'Галерея';
+
   ngOnInit() {
   }
 

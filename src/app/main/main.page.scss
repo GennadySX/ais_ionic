@@ -13,12 +13,38 @@ ion-content {
 
   ion-card {
     position: relative;
-    top: 130px;
+    display: flex;
+    .card-info {
+      background: #1f2229;
+      width: 100%;
+      ion-badge {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        background: #28e070;
+        color: #0c1721;
+      }
+      p {
+        width: 100%;
+        position: relative;
+        left: 15px;
+      }
+      .user-firstname {
+
+      }
+    }
+    .card-image {
+      img {
+        width: 140px;
+      }
+    }
+
     ion-item {
       --background: #3d4048;
       color: rgba(#fff, 0.5);
     }
     //box-shadow: #3d4048 0 5px 10px;
+
   }
 
 

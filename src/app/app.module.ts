@@ -14,9 +14,10 @@ import { IonicStorageModule } from '@ionic/storage';
 
 import {AuthService} from './api/auth.service';
 import {HomePage} from './home/home.page';
+import { MessagePipe } from './message.pipe';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, MessagePipe],
   entryComponents: [],
   imports: [
       BrowserModule,

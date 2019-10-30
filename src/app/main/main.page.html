@@ -1,15 +1,23 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Главный</ion-title>
+    <ion-title>{{titlePage}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
     <div *ngIf="userList">
-      <ion-card   *ngFor="let user of userList; index as i" [attr.data-index]="i"  >
-            <p>{{user.family}}</p>
-            <p>{{user.user}}</p>
-            <img [src]="user.img"  alt="">
+      <ion-card   *ngFor="let user of userList; index as i" [attr.data-index]="i" class="d-flex" >
+          <div class="card-image">
+              <img [src]="user.img"  alt="">
+          </div>
+          <div class="card-info">
+              <p class="user-lastname" *ngIf="user.family; else userFamily">{{user.family}}</p>
+              <ng-template #userFamily> <p class="user-lastname" >Без Фамилии</p> </ng-template>
+              <p class="user-firstname" *ngIf="user.user; else userName">{{user.user}}</p>
+              <ng-template #userName><p class="user-firstname" >Без имени</p></ng-template>
+              <ion-badge>{{i}}</ion-badge>
+          </div>
+
       </ion-card>
     </div>
 </ion-content>

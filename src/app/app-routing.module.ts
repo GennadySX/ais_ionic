@@ -23,7 +23,8 @@ const routes: Routes = [
         path: 'register',
         loadChildren: () => import('./login/register/register.module')
             .then(m => m.RegisterPageModule)
-    }
+    },  { path: 'message', loadChildren: './message/message.module#MessagePageModule' }
+
 ];
 
 

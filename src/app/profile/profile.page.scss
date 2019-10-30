@@ -25,7 +25,7 @@ ion-content {
 
   ion-card {
     position: relative;
-    top: 130px;
+    top: 50px;
 
     ion-item {
       --background: #3d4048;
@@ -41,12 +41,16 @@ ion-content {
 ion-button {
   position: relative;
   left: 47%;
-  top: 140px;
+  top: 70px;
   font-size: 1.4rem;
   transform: translateX(-50%);
   box-shadow: #6d9160 0 0 5px;
   --background: #6d9160;
 }
+.user-update {
+  top: 50px;
+}
+
 
 ion-button:focus {
   background: #4c8dff;
@@ -108,6 +112,7 @@ a {
   .name_p, .family_p , .login_p {
     position: absolute;
     top: 10px;
+    width: 50%;
   }
   .login_p {
     top: 40px;

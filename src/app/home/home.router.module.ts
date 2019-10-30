@@ -38,9 +38,13 @@ const routes: Routes = [
                 ]
             },
             {
-                path: '',
-                redirectTo: '/home/main',
-                pathMatch: 'full'
+                path: 'message',
+                children: [
+                    {
+                        path: '',
+                        loadChildren: () => import('../message/message.module').then( m => m.MessagePageModule)
+                    }
+                ]
             }
         ]
     },

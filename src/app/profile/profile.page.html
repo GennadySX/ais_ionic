@@ -19,29 +19,62 @@
     <ion-label class="change_avatar" (click)="getFile()">
       <ion-icon name="create" class="icon_upload"></ion-icon>
     </ion-label>
+
+    <input type="file" accept="image/*" ng2FileSelect [uploader]="fileUploader"  />
+
+
+
+
+    <h2>Your files: {{ fileUploader?.queue?.length }}</h2>
+    <ul>
+      <li *ngFor="let item of fileUploader.queue">
+        {{ item?.file?.name }}
+      </li>
+    </ul>
   </ion-col>
 </div>
 
 
+  <ion-button (click)="uploadFiles()">Upload files</ion-button>
+
 
   <ion-card>
     <ion-item>
-      <ul>
-        <li (click)="checkFile()" >{{userData.id_user}}</li>
-        <li>
-        </li>
-        <li>{{userData.login}}</li>
-      </ul>
+      <ion-label position="floating" >Ваш логин:</ion-label>
+      <ion-input  type="email"  [(ngModel)]="userLogin"  pattern="[A-Za-z0-9._%+-]{3,}@[a-zA-Z]{3,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" >Ваше имя:</ion-label>
+      <ion-input  type="text" [(ngModel)]="firstname"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" >Ваша фамилия:</ion-label>
+      <ion-input  type="text" [(ngModel)]="lastname"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" >Дата рождение:</ion-label>
+      <ion-datetime displayFormat="DD.MM.YYYY" max="2005-08-23" min="1944-08-23" [(ngModel)]="birth"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" >Ваш номер:</ion-label>
+      <ion-input  type="text" [(ngModel)]="phonenumber"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" >Ваш VK:</ion-label>
+      <ion-input  type="text" [(ngModel)]="vk"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" >Ваш Skype:</ion-label>
+      <ion-input  type="text" [(ngModel)]="skype"></ion-input>
     </ion-item>
   </ion-card>
-
+    <ion-button class="user-update" (click)="updateUser()">Обновить</ion-button>
   <br>
-    <ion-button (click)="getToken()">
+    <ion-button (click)="presentAlert()">
    Данный токен
   </ion-button>
   <ion-button (click)="getUserData()">
     Данные в консоле
   </ion-button>
-
 </ion-content>
 
