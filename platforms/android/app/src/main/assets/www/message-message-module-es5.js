@@ -1,0 +1,112 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["message-message-module"],{
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/message/message.page.html":
+/*!*********************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/message/message.page.html ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>{{titlePage}}</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n\n\n\n\n\n</ion-content>\n"
+
+/***/ }),
+
+/***/ "./src/app/message/message.module.ts":
+/*!*******************************************!*\
+  !*** ./src/app/message/message.module.ts ***!
+  \*******************************************/
+/*! exports provided: MessagePageModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MessagePageModule", function() { return MessagePageModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var _message_page__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./message.page */ "./src/app/message/message.page.ts");
+
+
+
+
+
+
+
+var routes = [
+    {
+        path: '',
+        component: _message_page__WEBPACK_IMPORTED_MODULE_6__["MessagePage"]
+    }
+];
+var MessagePageModule = /** @class */ (function () {
+    function MessagePageModule() {
+    }
+    MessagePageModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            imports: [
+                _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
+                _ionic_angular__WEBPACK_IMPORTED_MODULE_5__["IonicModule"],
+                _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forChild(routes)
+            ],
+            declarations: [_message_page__WEBPACK_IMPORTED_MODULE_6__["MessagePage"]]
+        })
+    ], MessagePageModule);
+    return MessagePageModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/message/message.page.scss":
+/*!*******************************************!*\
+  !*** ./src/app/message/message.page.scss ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "ion-header ion-toolbar {\n  --background: #1f2229;\n  color: #fcfaff;\n  box-shadow: #172029 0 0 15px;\n}\n\nion-content {\n  --background: #3d4048;\n}\n\nion-content ion-card {\n  position: relative;\n  top: 130px;\n}\n\nion-content ion-card ion-item {\n  --background: #3d4048;\n  color: rgba(255, 255, 255, 0.5);\n}\n\nion-button {\n  position: relative;\n  left: 47%;\n  top: 140px;\n  font-size: 1.4rem;\n  -webkit-transform: translateX(-50%);\n          transform: translateX(-50%);\n  box-shadow: #6d9160 0 0 5px;\n  --background: #6d9160;\n}\n\nion-button:focus {\n  background: #4c8dff;\n}\n\na {\n  position: absolute;\n  -webkit-transform: translateX(-50%);\n          transform: translateX(-50%);\n  left: 49%;\n  top: 52%;\n  font-size: 1rem;\n  color: #fcfaff;\n  text-shadow: 0 0 15px #fcfaff;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWVzc2FnZS9DOlxcVXNlcnNcXGh0Y3VjXFxlZHVQcm9qZWN0c1xcaW9uaWNcXGFpc19pb25pYy9zcmNcXGFwcFxcbWVzc2FnZVxcbWVzc2FnZS5wYWdlLnNjc3MiLCJzcmMvYXBwL21lc3NhZ2UvbWVzc2FnZS5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUU7RUFDRSxxQkFBQTtFQUNBLGNBQUE7RUFDQSw0QkFBQTtBQ0RKOztBREtBO0VBRUUscUJBQUE7QUNIRjs7QURLRTtFQUNFLGtCQUFBO0VBQ0EsVUFBQTtBQ0hKOztBRElJO0VBQ0UscUJBQUE7RUFDQSwrQkFBQTtBQ0ZOOztBRFVBO0VBQ0Usa0JBQUE7RUFDQSxTQUFBO0VBQ0EsVUFBQTtFQUNBLGlCQUFBO0VBQ0EsbUNBQUE7VUFBQSwyQkFBQTtFQUNBLDJCQUFBO0VBQ0EscUJBQUE7QUNQRjs7QURVQTtFQUNFLG1CQUFBO0FDUEY7O0FEV0E7RUFDRSxrQkFBQTtFQUNBLG1DQUFBO1VBQUEsMkJBQUE7RUFDQSxTQUFBO0VBQ0EsUUFBQTtFQUNBLGVBQUE7RUFDQSxjQUFBO0VBQ0EsNkJBQUE7QUNSRiIsImZpbGUiOiJzcmMvYXBwL21lc3NhZ2UvbWVzc2FnZS5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuaW9uLWhlYWRlciB7XHJcbiAgaW9uLXRvb2xiYXIge1xyXG4gICAgLS1iYWNrZ3JvdW5kOiAjMWYyMjI5O1xyXG4gICAgY29sb3I6ICNmY2ZhZmY7XHJcbiAgICBib3gtc2hhZG93OiAjMTcyMDI5IDAgMCAxNXB4O1xyXG4gIH1cclxufVxyXG5cclxuaW9uLWNvbnRlbnQge1xyXG4gIC8vLS1iYWNrZ3JvdW5kOiB1cmwoJy4uLy4uL2Fzc2V0cy9sb2dfYmtnLmpwZycpIDAgMC8xMDAlIDEwMCUgbm8tcmVwZWF0O1xyXG4gIC0tYmFja2dyb3VuZDogIzNkNDA0ODtcclxuXHJcbiAgaW9uLWNhcmQge1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgdG9wOiAxMzBweDtcclxuICAgIGlvbi1pdGVtIHtcclxuICAgICAgLS1iYWNrZ3JvdW5kOiAjM2Q0MDQ4O1xyXG4gICAgICBjb2xvcjogcmdiYSgjZmZmLCAwLjUpO1xyXG4gICAgfVxyXG4gICAgLy9ib3gtc2hhZG93OiAjM2Q0MDQ4IDAgNXB4IDEwcHg7XHJcbiAgfVxyXG5cclxuXHJcbn1cclxuXHJcbmlvbi1idXR0b24ge1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICBsZWZ0OiA0NyU7XHJcbiAgdG9wOiAxNDBweDtcclxuICBmb250LXNpemU6IDEuNHJlbTtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTUwJSk7XHJcbiAgYm94LXNoYWRvdzogIzZkOTE2MCAwIDAgNXB4O1xyXG4gIC0tYmFja2dyb3VuZDogIzZkOTE2MDtcclxufVxyXG5cclxuaW9uLWJ1dHRvbjpmb2N1cyB7XHJcbiAgYmFja2dyb3VuZDogIzRjOGRmZjtcclxufVxyXG5cclxuXHJcbmEge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTUwJSk7XHJcbiAgbGVmdDogNDklO1xyXG4gIHRvcDogNTIlO1xyXG4gIGZvbnQtc2l6ZTogMXJlbTtcclxuICBjb2xvcjogI2ZjZmFmZjtcclxuICB0ZXh0LXNoYWRvdzogMCAwIDE1cHggI2ZjZmFmZjtcclxufVxyXG4iLCJpb24taGVhZGVyIGlvbi10b29sYmFyIHtcbiAgLS1iYWNrZ3JvdW5kOiAjMWYyMjI5O1xuICBjb2xvcjogI2ZjZmFmZjtcbiAgYm94LXNoYWRvdzogIzE3MjAyOSAwIDAgMTVweDtcbn1cblxuaW9uLWNvbnRlbnQge1xuICAtLWJhY2tncm91bmQ6ICMzZDQwNDg7XG59XG5pb24tY29udGVudCBpb24tY2FyZCB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgdG9wOiAxMzBweDtcbn1cbmlvbi1jb250ZW50IGlvbi1jYXJkIGlvbi1pdGVtIHtcbiAgLS1iYWNrZ3JvdW5kOiAjM2Q0MDQ4O1xuICBjb2xvcjogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjUpO1xufVxuXG5pb24tYnV0dG9uIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICBsZWZ0OiA0NyU7XG4gIHRvcDogMTQwcHg7XG4gIGZvbnQtc2l6ZTogMS40cmVtO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTUwJSk7XG4gIGJveC1zaGFkb3c6ICM2ZDkxNjAgMCAwIDVweDtcbiAgLS1iYWNrZ3JvdW5kOiAjNmQ5MTYwO1xufVxuXG5pb24tYnV0dG9uOmZvY3VzIHtcbiAgYmFja2dyb3VuZDogIzRjOGRmZjtcbn1cblxuYSB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVYKC01MCUpO1xuICBsZWZ0OiA0OSU7XG4gIHRvcDogNTIlO1xuICBmb250LXNpemU6IDFyZW07XG4gIGNvbG9yOiAjZmNmYWZmO1xuICB0ZXh0LXNoYWRvdzogMCAwIDE1cHggI2ZjZmFmZjtcbn0iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/message/message.page.ts":
+/*!*****************************************!*\
+  !*** ./src/app/message/message.page.ts ***!
+  \*****************************************/
+/*! exports provided: MessagePage */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MessagePage", function() { return MessagePage; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var MessagePage = /** @class */ (function () {
+    function MessagePage() {
+        this.titlePage = 'Сообщение';
+    }
+    MessagePage.prototype.ngOnInit = function () {
+    };
+    MessagePage = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-message',
+            template: __webpack_require__(/*! raw-loader!./message.page.html */ "./node_modules/raw-loader/index.js!./src/app/message/message.page.html"),
+            styles: [__webpack_require__(/*! ./message.page.scss */ "./src/app/message/message.page.scss")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], MessagePage);
+    return MessagePage;
+}());
+
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=message-message-module-es5.js.map

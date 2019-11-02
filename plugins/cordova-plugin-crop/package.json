@@ -1,0 +1,56 @@
+{
+  "_from": "cordova-plugin-crop",
+  "_id": "cordova-plugin-crop@0.4.0",
+  "_inBundle": false,
+  "_integrity": "sha1-TZ6Jgsz7OOBPqQnIe0vsBuLR2Ss=",
+  "_location": "/cordova-plugin-crop",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-crop",
+    "name": "cordova-plugin-crop",
+    "escapedName": "cordova-plugin-crop",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-crop/-/cordova-plugin-crop-0.4.0.tgz",
+  "_shasum": "4d9e8982ccfb38e04fa909c87b4bec06e2d1d92b",
+  "_spec": "cordova-plugin-crop",
+  "_where": "C:\\Users\\htcuc\\eduProjects\\ionic\\ais_ionic",
+  "bugs": {
+    "url": "https://github.com/jeduan/cordova-plugin-crop/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-crop",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Crop an image in a Cordova app",
+  "homepage": "https://github.com/jeduan/cordova-plugin-crop#readme",
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "image",
+    "image manipulation",
+    "crop"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-crop",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeduan/cordova-plugin-crop.git"
+  },
+  "version": "0.4.0"
+}
