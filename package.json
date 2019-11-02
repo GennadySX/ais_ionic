@@ -28,11 +28,13 @@
     "@ionic-native/file-transfer": "^5.15.1",
     "@ionic-native/image-picker": "^5.16.0",
     "@ionic-native/ionic-webview": "^5.0.0",
+    "@ionic-native/photo-viewer": "^5.16.0",
     "@ionic-native/splash-screen": "^5.0.0",
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic/angular": "^4.7.1",
     "@ionic/storage": "^2.2.0",
     "axios": "^0.19.0",
+    "com-sarriaroman-photoviewer": "^1.2.4",
     "cordova": "^9.0.0",
     "cordova-android": "8.1.0",
     "cordova-plugin-camera": "^4.1.0",
@@ -42,6 +44,8 @@
     "cordova-plugin-filepath": "^1.5.6",
     "cordova-plugin-telerik-imagepicker": "^2.3.3",
     "core-js": "^2.5.4",
+    "ionic-angular": "^3.9.9",
+    "ionic-img-viewer": "^2.9.0",
     "ng2-file-upload": "^1.4.0",
     "nodemon": "^1.19.4",
     "ramda": "^0.26.1",
@@ -96,7 +100,8 @@
       "cordova-plugin-file": {},
       "cordova-plugin-filepath": {},
       "cordova-plugin-telerik-imagepicker": {},
-      "cordova-plugin-crop": {}
+      "cordova-plugin-crop": {},
+      "com-sarriaroman-photoviewer": {}
     },
     "platforms": [
       "android"

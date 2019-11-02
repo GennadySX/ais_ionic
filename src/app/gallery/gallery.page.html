@@ -5,5 +5,9 @@
 </ion-header>
 
 <ion-content>
-
+  <div *ngIf="images">
+      <div class="card-image">
+        <img [src]="image.img"  alt="" *ngFor="let image of images; let index"   >
+      </div>
+  </div>
 </ion-content>

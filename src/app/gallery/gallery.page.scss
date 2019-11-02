@@ -9,42 +9,25 @@ ion-header {
 
 ion-content {
   //--background: url('../../assets/log_bkg.jpg') 0 0/100% 100% no-repeat;
-  --background: palegoldenrod;
+  --background: #292d34;
 
-  ion-card {
-    position: relative;
-    top: 130px;
-    ion-item {
-      --background: #3d4048;
-      color: rgba(#fff, 0.5);
+  .card-image {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    img {
+      width: 45vw;
+      height: 45vw;
+      box-shadow: #0c1721 1px 1px 15px;
+      margin-top: 10px;
+      border-radius: 3px;
+      object-fit: cover;
     }
     //box-shadow: #3d4048 0 5px 10px;
+
   }
 
-
-}
-
-ion-button {
-  position: relative;
-  left: 47%;
-  top: 140px;
-  font-size: 1.4rem;
-  transform: translateX(-50%);
-  box-shadow: #6d9160 0 0 5px;
-  --background: #6d9160;
-}
-
-ion-button:focus {
-  background: #4c8dff;
 }
 
 
-a {
-  position: absolute;
-  transform: translateX(-50%);
-  left: 49%;
-  top: 52%;
-  font-size: 1rem;
-  color: #fcfaff;
-  text-shadow: 0 0 15px #fcfaff;
-}

@@ -23,7 +23,6 @@ import { FilePath } from '@ionic-native/file-path/ngx';
 import { Crop } from '@ionic-native/crop/ngx';
 import { ImagePicker } from '@ionic-native/image-picker/ngx';
 
-
 @NgModule({
   declarations: [AppComponent, MessagePipe],
   entryComponents: [],
@@ -32,7 +31,7 @@ import { ImagePicker } from '@ionic-native/image-picker/ngx';
       IonicModule.forRoot(),
       AppRoutingModule,
       IonicStorageModule.forRoot(),
-      HttpClientModule
+      HttpClientModule,
   ],
   providers: [
     StatusBar,
@@ -43,7 +42,7 @@ import { ImagePicker } from '@ionic-native/image-picker/ngx';
       WebView,
       FilePath,
       Crop,
-      ImagePicker,
+      ImagePicker
   ],
   bootstrap: [AppComponent]
 })
