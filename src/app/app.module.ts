@@ -14,7 +14,15 @@ import { IonicStorageModule } from '@ionic/storage';
 
 import {AuthService} from './api/auth.service';
 import {HomePage} from './home/home.page';
+
 import { MessagePipe } from './message.pipe';
+import { Camera } from '@ionic-native/Camera/ngx';
+import { File } from '@ionic-native/File/ngx';
+import { WebView } from '@ionic-native/ionic-webview/ngx';
+import { FilePath } from '@ionic-native/file-path/ngx';
+import { Crop } from '@ionic-native/crop/ngx';
+import { ImagePicker } from '@ionic-native/image-picker/ngx';
+
 
 @NgModule({
   declarations: [AppComponent, MessagePipe],
@@ -25,12 +33,17 @@ import { MessagePipe } from './message.pipe';
       AppRoutingModule,
       IonicStorageModule.forRoot(),
       HttpClientModule
-
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+      Camera,
+      File,
+      WebView,
+      FilePath,
+      Crop,
+      ImagePicker,
   ],
   bootstrap: [AppComponent]
 })

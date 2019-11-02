@@ -15,29 +15,12 @@
   </div>
 
   <ion-col class="avatar" >
-    <img [src]="userData.img" class="avatar_img" alt="">
-    <ion-label class="change_avatar" (click)="getFile()">
+    <img [src]="fileImage" class="avatar_img" alt="">
+    <label class="change_avatar" for="fileUp" (click)="selectImage()">
       <ion-icon name="create" class="icon_upload"></ion-icon>
-    </ion-label>
-
-    <input type="file" accept="image/*" ng2FileSelect [uploader]="fileUploader"  />
-
-
-
-
-    <h2>Your files: {{ fileUploader?.queue?.length }}</h2>
-    <ul>
-      <li *ngFor="let item of fileUploader.queue">
-        {{ item?.file?.name }}
-      </li>
-    </ul>
+    </label>
   </ion-col>
 </div>
-
-
-  <ion-button (click)="uploadFiles()">Upload files</ion-button>
-
-
   <ion-card>
     <ion-item>
       <ion-label position="floating" >Ваш логин:</ion-label>
