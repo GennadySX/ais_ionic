@@ -7,7 +7,17 @@
 <ion-content>
 
 
+  <ion-card   *ngFor="let user of userList; index as i" [attr.data-index]="i" class="d-flex message-card" (click)="openModal(user.id)">
+    <div class="card-image">
+      <img [src]="user.img"  alt="">
+    </div>
+    <div class="card-info">
+      <p class="user-lastname" *ngIf="user.family && user.user; else userFamily">{{user.user}} {{user.family}}</p>
+      <ng-template #userFamily> <p class="user-lastname" >Без имени </p> </ng-template>
+      <ion-badge>{{user.id}}</ion-badge>
+    </div>
 
+  </ion-card>
 
 
 </ion-content>

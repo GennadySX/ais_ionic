@@ -41,7 +41,6 @@ export class ProfilePage implements OnInit {
     fileImage = '';
 
 
-
     clickedImagePath: any;
 
 
@@ -144,11 +143,11 @@ export class ProfilePage implements OnInit {
 
     changeAvatar(image64) {
         axios.post('http://studentapi.myknitu.ru/updateuserimage/', {
-            "token": this.token,
-            "img": image64
-        }).then( res => {
+            'token': this.token,
+            'img': image64
+        }).then(res => {
             if (res.data.status) {
-                this.notAlert("Оп оп оп ", "Ваша аватарка изменилась!");
+                this.notAlert('Оп оп оп ', 'Ваша аватарка изменилась!');
             }
         });
     }

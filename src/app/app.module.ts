@@ -22,6 +22,8 @@ import { WebView } from '@ionic-native/ionic-webview/ngx';
 import { FilePath } from '@ionic-native/file-path/ngx';
 import { Crop } from '@ionic-native/crop/ngx';
 import { ImagePicker } from '@ionic-native/image-picker/ngx';
+import { MessModalPageModule} from './mess-modal/mess-modal.module';
+
 
 @NgModule({
   declarations: [AppComponent, MessagePipe],
@@ -32,6 +34,7 @@ import { ImagePicker } from '@ionic-native/image-picker/ngx';
       AppRoutingModule,
       IonicStorageModule.forRoot(),
       HttpClientModule,
+      MessModalPageModule,
   ],
   providers: [
     StatusBar,
