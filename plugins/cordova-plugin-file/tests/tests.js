@@ -3862,7 +3862,7 @@ exports.defineAutoTests = function () {
                             expect(entry).toBeDefined();
                             expect(entry.filesystem.name).toEqual('content');
                             entry.copyTo(temp_root, file2, validateFile, failed.bind(null, done, 'entry.copyTo - Error copying file: ' + entry.toURL() + ' to TEMPORAL root as: ' + file2));
-                        }, failed.bind(null, done, 'resolveLocalFileSystemURL failed for content provider'));
+                        }, failed.bind(null, done, 'resolveLocalFileSystemURL failed for content providers'));
                     };
                     // Delete any existing file to start things off
                     temp_root.getFile(file2, {}, function (entry) {
@@ -3878,7 +3878,7 @@ exports.defineAutoTests = function () {
                 it('file.spec.140 delete: content should fail', function (done) {
                     resolveLocalFileSystemURL('content://org.apache.cordova.file.testprovider/www/index.html', function (entry) { // eslint-disable-line no-undef
                         entry.remove(failed.bind(null, done, 'expected delete to fail'), done);
-                    }, failed.bind(null, done, 'resolveLocalFileSystemURL failed for content provider'));
+                    }, failed.bind(null, done, 'resolveLocalFileSystemURL failed for content providers'));
                 });
             });
 

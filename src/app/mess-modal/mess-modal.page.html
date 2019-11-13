@@ -1,20 +1,50 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>{{modalTitle}}</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home" (click)="closeModal()"></ion-back-button>
+      <img src="../../assets/log_bkg.jpg" alt="" class="head-img">
+    </ion-buttons>
+    <ion-title>Timur Zotov</ion-title>
   </ion-toolbar>
+
+
 </ion-header>
 
-<ion-content padding>
+<ion-content >
   <ion-grid>
-    <ion-row>
-      <ion-col text-center>
-        ID : {{modelId}}
-      </ion-col>
+    <ion-row >
+      <div *ngFor="let message of messList;" >
+        <div *ngIf="message.to_id === user_id; else myBlock">
+          <ion-col class=" mess-to"  size="7" > {{message.message}} </ion-col>
+        </div>
+        <ng-template #myBlock >
+          <ion-col class="mess-from" size="7" *ngIf="message.to_id === my_id; else notMessage"> {{message.message}}  </ion-col>
+        </ng-template>
+        <ng-template #notMessage>
+          <ion-col class="not_mess"  size="12"  > Нет переписки </ion-col>
+        </ng-template>
+      </div>
+
+
     </ion-row>
-    <ion-row>
-      <ion-col >
-        <ion-button (click)="closeModal()">Close Modal</ion-button>
-      </ion-col>
-    </ion-row>
+
   </ion-grid>
+
+  <ion-card class="mess-toolbar">
+    <ion-button class="emoji-btn"
+                (click)="toggled = !toggled"
+                [(emojiPickerIf)]="toggled"
+                [emojiPickerDirection]="'right' "
+                (emojiPickerSelect)="handleSelection($event)"
+
+
+    >
+      <ion-icon name="happy"></ion-icon>
+    </ion-button>
+    <ion-textarea [(ngModel)]="message" rows="1"  autoGrow="true" placeholder="Сообщение..."></ion-textarea>
+    <ion-button class="send-btn" (click)="sendIt($event)">
+      <ion-icon name="send" ></ion-icon>
+    </ion-button>
+  </ion-card>
+
 </ion-content>

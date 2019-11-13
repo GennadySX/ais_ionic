@@ -1,26 +1,28 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { Routes, RouterModule } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {FormsModule} from '@angular/forms';
+import {Routes, RouterModule} from '@angular/router';
+import {NgxEmojiPickerModule} from 'ngx-emoji-picker';
+import {IonicModule} from '@ionic/angular';
 
-import { IonicModule } from '@ionic/angular';
-
-import { MessagePage } from './message.page';
+import {MessagePage} from './message.page';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: MessagePage
-  }
+    {
+        path: '',
+        component: MessagePage
+    }
 ];
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    RouterModule.forChild(routes)
-  ],
-  declarations: [MessagePage]
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        RouterModule.forChild(routes),
+        NgxEmojiPickerModule
+    ],
+    declarations: [MessagePage]
 })
-export class MessagePageModule {}
+export class MessagePageModule {
+}

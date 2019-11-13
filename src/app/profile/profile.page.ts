@@ -210,7 +210,7 @@ export class ProfilePage implements OnInit {
     }
 
     getUserData() {
-        //console.log('axios token ', this.token);
+        console.log('axios token ', this.token);
         const tokenLog = {'token': this.token};
         axios.post('http://studentapi.myknitu.ru/getuser/', tokenLog).then(res => {
             console.log(res.data);

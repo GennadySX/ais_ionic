@@ -4,6 +4,20 @@ ion-header {
     --background: #1f2229;
     color: #fcfaff;
     box-shadow: #172029 0 0 15px;
+    ion-title {
+      font-size: 1rem;
+    }
+    ion-buttons {
+      ion-button {
+        --color: #fff !important;
+        color: #fff !important;
+      }
+    }
+    .head-img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+    }
   }
 }
 
@@ -11,73 +25,76 @@ ion-content {
   //--background: url('../../assets/log_bkg.jpg') 0 0/100% 100% no-repeat;
   --background: #1f2229;
 
-  ion-card {
-    position: relative;
-    display: flex;
-    box-shadow: none;
-    border: none
-  ;
-    .card-info {
-      background: #1f2229;
+  ion-grid {
+    ion-row {
+      display: inline-block;
       width: 100%;
-      border-bottom: 0.7px solid rgba(gray, 0.5);
-      ion-badge {
-        position: absolute;
-        right: 10px;
-        top: 10px;
+      margin-bottom: 50px;
+      ion-col {
+      margin-bottom: 10px;
+      }
+      .mess-from {
+        background: #ffce00;
+        border-radius: 0 5px 5px 0;
+        float: left;
+      }
+
+      .mess-to {
+        float: right;
         background: #28e070;
-        color: #0c1721;
+        border-radius: 5px 0px 0px 5px;
+        text-align: right;
       }
-      p {
-        width: 100%;
-        position: relative;
-        left: 15px;
-      }
-      .user-firstname {
-
+      .not_mess {
+        color: #86888f;
+        text-align: center;
       }
     }
-    .card-image {
-      background: transparent;
-      border: none;
-      img {
-        width: 90px;
-        border-radius: 50%;
-      }
-    }
+  }
 
-    ion-item {
+  .mess-toolbar {
+    margin: 0;
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    --background: #3d4048;
+    ion-textarea {
+      position: relative;
+      bottom: 3px;
+      float: left;
+      left: 55px;
+      width: 73%;
+      --background: transparentize();
+      color: #fff;
+    }
+    ion-button {
       --background: #3d4048;
-      color: rgba(#fff, 0.5);
+      --box-shadow: none;
+      position: absolute;
+      bottom: 0;
+      border-radius: 50%;
     }
-    //box-shadow: #3d4048 0 5px 10px;
-
+    .send-btn {
+      float: right;
+      position: fixed;
+      right: 0px;
+      border: none;
+    }
+    .emoji-btn {
+      float: left;
+      width: 70px;
+      margin-top: 5px;
+      width: 50px;
+    }
   }
 
 
-}
 
-ion-button {
-  position: relative;
-  left: 47%;
-  top: 140px;
-  font-size: 1.4rem;
-  transform: translateX(-50%);
-  box-shadow: #6d9160 0 0 5px;
-  --background: #6d9160;
-}
 
-ion-button:focus {
-  background: #4c8dff;
+
+
 }
 
 
-a {
-  position: absolute;
-  transform: translateX(-50%);
-  left: 49%;
-  top: 52%;
-  font-size: 1rem;
-  color: #fcfaff;
-  text-shadow: 0 0 15px #fcfaff;
-}
+

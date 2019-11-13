@@ -6,6 +6,7 @@ import {Storage} from '@ionic/storage';
 import {Platform} from '@ionic/angular';
 import {ModalController} from '@ionic/angular';
 import {MessModalPage} from '../mess-modal/mess-modal.page';
+import {forEach} from '@angular-devkit/schematics';
 
 @Component({
     selector: 'app-message',
@@ -17,7 +18,10 @@ export class MessagePage implements OnInit {
     titlePage = 'Сообщение';
     dataReturned: any;
     token: '';
-    userList: any[];
+    userList: [];
+    Iam: any;
+    my_id: string;
+
 
     constructor(
         private auth: AuthService,
@@ -37,8 +41,9 @@ export class MessagePage implements OnInit {
         const modal = await this.modalController.create({
             component: MessModalPage,
             componentProps: {
-                "paramID": id,
-                "paramTitle": "Test Title"
+                'user_id': id,
+                'my_id': this.Iam.id_user,
+                'token': this.token
             },
             animated: false
         });
@@ -53,28 +58,52 @@ export class MessagePage implements OnInit {
     }
 
 
-    getUserList() {
+    getUserData() {
+        axios.post('http://studentapi.myknitu.ru/getuser/', {'token': this.token}).then(res => {
+            this.Iam = res.data;
+        });
 
+    }
+
+
+    async  getUserList() {
         let load = {
             'token': this.token
         };
         console.log(load);
-        axios.post('http://studentapi.myknitu.ru/listusers/', load).then(res => {
+      axios.post('http://studentapi.myknitu.ru/listusers/', load).then(res => {
             if (res.data.users) {
-                this.userList = res.data.users;
-                console.log(this.userList);
+              this.checkMessages(res.data.users);
             }
         });
-
-
     }
 
+
+    async checkMessages(userlist) {
+        let userdata = [];
+        for (let user of userlist) {
+            const load = {
+                     'token': this.token,
+                    'userto': user.id
+            }
+          axios.post('http://studentapi.myknitu.ru/getdialog/', load).then(res => {
+                if (res.data.messages ) {
+                    if (res.data.messages[0]) {
+                        userdata.push(user);
+                    }
+                }
+            });
+        }
+        this.userList = userdata;
+    }
 
     getToken() {
         this.storage.get('token').then((value) => {
             this.token = value;
             //console.log('init token ', this.token);
             this.getUserList();
+            this.getUserData();
+
         });
         return true;
     }

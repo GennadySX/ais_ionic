@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
-
+import {NgxEmojiPickerModule} from 'ngx-emoji-picker';
 import { IonicModule } from '@ionic/angular';
 
 import { MessModalPage } from './mess-modal.page';
@@ -19,7 +19,8 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    NgxEmojiPickerModule
   ],
   declarations: [MessModalPage]
 })
