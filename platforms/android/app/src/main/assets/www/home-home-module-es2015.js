@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-tabs class=\"tab-panel\" color=\"primary\">\r\n\r\n  <ion-tab-bar slot=\"bottom\">\r\n    <ion-tab-button tab=\"main\">\r\n      <ion-icon name=\"home\"></ion-icon>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"gallery\">\r\n      <ion-icon name=\"apps\"></ion-icon>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"message\">\r\n      <ion-icon name=\"md-albums\"></ion-icon>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"profile\">\r\n      <ion-icon name=\"contact\"></ion-icon>\r\n    </ion-tab-button>\r\n  </ion-tab-bar>\r\n</ion-tabs>\r\n"
+module.exports = "<ion-tabs class=\"tab-panel\" color=\"primary\">\r\n\r\n  <ion-tab-bar slot=\"bottom\">\r\n    <ion-tab-button tab=\"main\">\r\n      <ion-icon name=\"home\"></ion-icon>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"gallery\">\r\n      <ion-icon name=\"md-albums\"></ion-icon>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"message\">\r\n      <ion-icon name=\"ios-chatbubbles\"></ion-icon>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"profile\">\r\n      <ion-icon name=\"contact\"></ion-icon>\r\n    </ion-tab-button>\r\n  </ion-tab-bar>\r\n</ion-tabs>\r\n"
 
 /***/ }),
 
@@ -124,7 +124,7 @@ const routes = [
                 children: [
                     {
                         path: '',
-                        loadChildren: () => Promise.all(/*! import() | profile-profile-module */[__webpack_require__.e("default~gallery-gallery-module~login-login-module~login-register-register-module~main-main-module~pr~2dc43020"), __webpack_require__.e("profile-profile-module")]).then(__webpack_require__.bind(null, /*! ../profile/profile.module */ "./src/app/profile/profile.module.ts")).then(m => m.ProfilePageModule),
+                        loadChildren: () => __webpack_require__.e(/*! import() | profile-profile-module */ "profile-profile-module").then(__webpack_require__.bind(null, /*! ../profile/profile.module */ "./src/app/profile/profile.module.ts")).then(m => m.ProfilePageModule),
                         data: { preload: true }
                     }
                 ],
@@ -134,7 +134,7 @@ const routes = [
                 children: [
                     {
                         path: '',
-                        loadChildren: () => Promise.all(/*! import() | main-main-module */[__webpack_require__.e("default~gallery-gallery-module~login-login-module~login-register-register-module~main-main-module~pr~2dc43020"), __webpack_require__.e("main-main-module")]).then(__webpack_require__.bind(null, /*! ../main/main.module */ "./src/app/main/main.module.ts")).then(m => m.MainPageModule),
+                        loadChildren: () => __webpack_require__.e(/*! import() | main-main-module */ "main-main-module").then(__webpack_require__.bind(null, /*! ../main/main.module */ "./src/app/main/main.module.ts")).then(m => m.MainPageModule),
                         data: { preload: true }
                     }
                 ]
@@ -144,7 +144,7 @@ const routes = [
                 children: [
                     {
                         path: '',
-                        loadChildren: () => Promise.all(/*! import() | gallery-gallery-module */[__webpack_require__.e("default~gallery-gallery-module~login-login-module~login-register-register-module~main-main-module~pr~2dc43020"), __webpack_require__.e("gallery-gallery-module")]).then(__webpack_require__.bind(null, /*! ../gallery/gallery.module */ "./src/app/gallery/gallery.module.ts")).then(m => m.GalleryPageModule)
+                        loadChildren: () => __webpack_require__.e(/*! import() | gallery-gallery-module */ "gallery-gallery-module").then(__webpack_require__.bind(null, /*! ../gallery/gallery.module */ "./src/app/gallery/gallery.module.ts")).then(m => m.GalleryPageModule)
                     }
                 ]
             },
@@ -154,6 +154,15 @@ const routes = [
                     {
                         path: '',
                         loadChildren: () => __webpack_require__.e(/*! import() | message-message-module */ "message-message-module").then(__webpack_require__.bind(null, /*! ../message/message.module */ "./src/app/message/message.module.ts")).then(m => m.MessagePageModule)
+                    }
+                ]
+            },
+            {
+                path: 'room',
+                children: [
+                    {
+                        path: '',
+                        loadChildren: () => Promise.resolve(/*! import() */).then(__webpack_require__.bind(null, /*! ../mess-modal/mess-modal.module */ "./src/app/mess-modal/mess-modal.module.ts")).then(m => m.MessModalPageModule)
                     }
                 ]
             }

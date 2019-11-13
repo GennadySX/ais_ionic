@@ -31,7 +31,7 @@ export class AppComponent {
 
             this.authService.authState.subscribe(state => {
                 if (state) {
-                    this.router.navigate(['home/message']);
+                    this.router.navigate(['home/main']);
                 }
             });
         });

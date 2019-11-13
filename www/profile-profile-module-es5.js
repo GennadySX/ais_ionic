@@ -2108,11 +2108,11 @@ var ProfilePage = /** @class */ (function () {
     ProfilePage.prototype.changeAvatar = function (image64) {
         var _this = this;
         axios__WEBPACK_IMPORTED_MODULE_5___default.a.post('http://studentapi.myknitu.ru/updateuserimage/', {
-            "token": this.token,
-            "img": image64
+            'token': this.token,
+            'img': image64
         }).then(function (res) {
             if (res.data.status) {
-                _this.notAlert("Оп оп оп ", "Ваша аватарка изменилась!");
+                _this.notAlert('Оп оп оп ', 'Ваша аватарка изменилась!');
             }
         });
     };
@@ -2174,7 +2174,7 @@ var ProfilePage = /** @class */ (function () {
     };
     ProfilePage.prototype.getUserData = function () {
         var _this = this;
-        //console.log('axios token ', this.token);
+        console.log('axios token ', this.token);
         var tokenLog = { 'token': this.token };
         axios__WEBPACK_IMPORTED_MODULE_5___default.a.post('http://studentapi.myknitu.ru/getuser/', tokenLog).then(function (res) {
             console.log(res.data);

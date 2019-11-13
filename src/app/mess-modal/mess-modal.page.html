@@ -2,12 +2,10 @@
   <ion-toolbar>
     <ion-buttons slot="start">
       <ion-back-button defaultHref="home" (click)="closeModal()"></ion-back-button>
-      <img src="../../assets/log_bkg.jpg" alt="" class="head-img">
+      <img [src]="user.img" alt="" class="head-img">
     </ion-buttons>
-    <ion-title>Timur Zotov</ion-title>
+    <ion-title >{{user_name}}</ion-title>
   </ion-toolbar>
-
-
 </ion-header>
 
 <ion-content >

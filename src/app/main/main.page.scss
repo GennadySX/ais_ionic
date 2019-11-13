@@ -51,26 +51,24 @@ ion-content {
 }
 
 ion-button {
-  position: relative;
-  left: 47%;
-  top: 140px;
-  font-size: 1.4rem;
-  transform: translateX(-50%);
-  box-shadow: #6d9160 0 0 5px;
-  --background: #6d9160;
+  position: absolute;
+  font-size: 0.5rem;
+  right: 5px;
+  bottom: 5px;
+  box-shadow: #292d34 0 0 5px;
+  --background: #292d34;
 }
 
 ion-button:focus {
   background: #4c8dff;
 }
 
-
-a {
-  position: absolute;
-  transform: translateX(-50%);
-  left: 49%;
-  top: 52%;
-  font-size: 1rem;
-  color: #fcfaff;
-  text-shadow: 0 0 15px #fcfaff;
+ion-refresher-content {
+  background: #3d4048;
+  --background: #3d4048;
+  ion-refresher {
+    background: #3d4048;
+    --background: #3d4048;
+  }
 }
+

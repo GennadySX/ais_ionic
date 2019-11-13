@@ -10,8 +10,10 @@
 var map = {
 	"./login/login.module": [
 		"./src/app/login/login.module.ts",
-		"default~gallery-gallery-module~login-login-module~login-register-register-module~main-main-module~pr~2dc43020",
 		"login-login-module"
+	],
+	"./mess-modal/mess-modal.module": [
+		"./src/app/mess-modal/mess-modal.module.ts"
 	],
 	"./message/message.module": [
 		"./src/app/message/message.module.ts",
@@ -462,6 +464,17 @@ module.exports = "<ion-app>\r\n  <ion-router-outlet></ion-router-outlet>\r\n</io
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/index.js!./src/app/mess-modal/mess-modal.page.html":
+/*!***************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/mess-modal/mess-modal.page.html ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-buttons slot=\"start\">\n      <ion-back-button defaultHref=\"home\" (click)=\"closeModal()\"></ion-back-button>\n      <img [src]=\"user.img\" alt=\"\" class=\"head-img\">\n    </ion-buttons>\n    <ion-title >{{user_name}}</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content >\n  <ion-grid>\n    <ion-row >\n      <div *ngFor=\"let message of messList;\" >\n        <div *ngIf=\"message.to_id === user_id; else myBlock\">\n          <ion-col class=\" mess-to\"  size=\"7\" > {{message.message}} </ion-col>\n        </div>\n        <ng-template #myBlock >\n          <ion-col class=\"mess-from\" size=\"7\" *ngIf=\"message.to_id === my_id; else notMessage\"> {{message.message}}  </ion-col>\n        </ng-template>\n        <ng-template #notMessage>\n          <ion-col class=\"not_mess\"  size=\"12\"  > Нет переписки </ion-col>\n        </ng-template>\n      </div>\n\n\n    </ion-row>\n\n  </ion-grid>\n\n  <ion-card class=\"mess-toolbar\">\n    <ion-button class=\"emoji-btn\"\n                (click)=\"toggled = !toggled\"\n                [(emojiPickerIf)]=\"toggled\"\n                [emojiPickerDirection]=\"'right' \"\n                (emojiPickerSelect)=\"handleSelection($event)\"\n\n\n    >\n      <ion-icon name=\"happy\"></ion-icon>\n    </ion-button>\n    <ion-textarea [(ngModel)]=\"message\" rows=\"1\"  autoGrow=\"true\" placeholder=\"Сообщение...\"></ion-textarea>\n    <ion-button class=\"send-btn\" (click)=\"sendIt($event)\">\n      <ion-icon name=\"send\" ></ion-icon>\n    </ion-button>\n  </ion-card>\n\n</ion-content>\n"
+
+/***/ }),
+
 /***/ "./src/app/api/auth.guard.ts":
 /*!***********************************!*\
   !*** ./src/app/api/auth.guard.ts ***!
@@ -618,10 +631,11 @@ const routes = [
     },
     {
         path: 'register',
-        loadChildren: () => Promise.all(/*! import() | login-register-register-module */[__webpack_require__.e("default~gallery-gallery-module~login-login-module~login-register-register-module~main-main-module~pr~2dc43020"), __webpack_require__.e("login-register-register-module")]).then(__webpack_require__.bind(null, /*! ./login/register/register.module */ "./src/app/login/register/register.module.ts"))
+        loadChildren: () => __webpack_require__.e(/*! import() | login-register-register-module */ "login-register-register-module").then(__webpack_require__.bind(null, /*! ./login/register/register.module */ "./src/app/login/register/register.module.ts"))
             .then(m => m.RegisterPageModule)
     },
-    { path: 'message', loadChildren: './message/message.module#MessagePageModule' }
+    { path: 'message', loadChildren: './message/message.module#MessagePageModule' },
+    { path: 'mess-modal', loadChildren: './mess-modal/mess-modal.module#MessModalPageModule' }
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -691,7 +705,7 @@ let AppComponent = class AppComponent {
             this.splashScreen.hide();
             this.authService.authState.subscribe(state => {
                 if (state) {
-                    this.router.navigate(['home/gallery']);
+                    this.router.navigate(['home/main']);
                 }
             });
         });
@@ -751,6 +765,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ionic_native_file_path_ngx__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @ionic-native/file-path/ngx */ "./node_modules/@ionic-native/file-path/ngx/index.js");
 /* harmony import */ var _ionic_native_crop_ngx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @ionic-native/crop/ngx */ "./node_modules/@ionic-native/crop/ngx/index.js");
 /* harmony import */ var _ionic_native_image_picker_ngx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @ionic-native/image-picker/ngx */ "./node_modules/@ionic-native/image-picker/ngx/index.js");
+/* harmony import */ var _mess_modal_mess_modal_module__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./mess-modal/mess-modal.module */ "./src/app/mess-modal/mess-modal.module.ts");
+/* harmony import */ var ngx_emoji_picker__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ngx-emoji-picker */ "./node_modules/ngx-emoji-picker/fesm2015/ngx-emoji-picker.js");
+
+
 
 
 
@@ -783,6 +801,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _app_routing_module__WEBPACK_IMPORTED_MODULE_8__["AppRoutingModule"],
             _ionic_storage__WEBPACK_IMPORTED_MODULE_10__["IonicStorageModule"].forRoot(),
             _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"],
+            _mess_modal_mess_modal_module__WEBPACK_IMPORTED_MODULE_18__["MessModalPageModule"],
+            ngx_emoji_picker__WEBPACK_IMPORTED_MODULE_19__["NgxEmojiPickerModule"].forRoot()
         ],
         providers: [
             _ionic_native_status_bar_ngx__WEBPACK_IMPORTED_MODULE_7__["StatusBar"],
@@ -793,12 +813,210 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _ionic_native_ionic_webview_ngx__WEBPACK_IMPORTED_MODULE_14__["WebView"],
             _ionic_native_file_path_ngx__WEBPACK_IMPORTED_MODULE_15__["FilePath"],
             _ionic_native_crop_ngx__WEBPACK_IMPORTED_MODULE_16__["Crop"],
-            _ionic_native_image_picker_ngx__WEBPACK_IMPORTED_MODULE_17__["ImagePicker"]
+            _ionic_native_image_picker_ngx__WEBPACK_IMPORTED_MODULE_17__["ImagePicker"],
         ],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_9__["AppComponent"]]
     }),
     tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
 ], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/mess-modal/mess-modal.module.ts":
+/*!*************************************************!*\
+  !*** ./src/app/mess-modal/mess-modal.module.ts ***!
+  \*************************************************/
+/*! exports provided: MessModalPageModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MessModalPageModule", function() { return MessModalPageModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var ngx_emoji_picker__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-emoji-picker */ "./node_modules/ngx-emoji-picker/fesm2015/ngx-emoji-picker.js");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var _mess_modal_page__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./mess-modal.page */ "./src/app/mess-modal/mess-modal.page.ts");
+
+
+
+
+
+
+
+
+const routes = [
+    {
+        path: '',
+        component: _mess_modal_page__WEBPACK_IMPORTED_MODULE_7__["MessModalPage"]
+    }
+];
+let MessModalPageModule = class MessModalPageModule {
+};
+MessModalPageModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        imports: [
+            _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
+            _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["IonicModule"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forChild(routes),
+            ngx_emoji_picker__WEBPACK_IMPORTED_MODULE_5__["NgxEmojiPickerModule"]
+        ],
+        declarations: [_mess_modal_page__WEBPACK_IMPORTED_MODULE_7__["MessModalPage"]]
+    })
+], MessModalPageModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/mess-modal/mess-modal.page.scss":
+/*!*************************************************!*\
+  !*** ./src/app/mess-modal/mess-modal.page.scss ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "ion-header ion-toolbar {\n  --background: #1f2229;\n  color: #fcfaff;\n  box-shadow: #172029 0 0 15px;\n}\nion-header ion-toolbar ion-title {\n  font-size: 1rem;\n}\nion-header ion-toolbar ion-buttons ion-button {\n  --color: #fff !important;\n  color: #fff !important;\n}\nion-header ion-toolbar .head-img {\n  width: 35px;\n  height: 35px;\n  border-radius: 50%;\n}\nion-content {\n  --background: #1f2229;\n}\nion-content ion-grid ion-row {\n  display: inline-block;\n  width: 100%;\n  margin-bottom: 50px;\n}\nion-content ion-grid ion-row ion-col {\n  margin-bottom: 10px;\n}\nion-content ion-grid ion-row .mess-from {\n  background: #ffce00;\n  border-radius: 0 5px 5px 0;\n  float: left;\n}\nion-content ion-grid ion-row .mess-to {\n  float: right;\n  background: #28e070;\n  border-radius: 5px 0px 0px 5px;\n  text-align: right;\n}\nion-content ion-grid ion-row .not_mess {\n  color: #86888f;\n  text-align: center;\n}\nion-content .mess-toolbar {\n  margin: 0;\n  display: inline;\n  position: fixed;\n  bottom: 0;\n  width: 100%;\n  --background: #3d4048;\n}\nion-content .mess-toolbar ion-textarea {\n  position: relative;\n  bottom: 3px;\n  float: left;\n  left: 55px;\n  width: 73%;\n  --background: transparentize();\n  color: #fff;\n}\nion-content .mess-toolbar ion-button {\n  --background: #3d4048;\n  --box-shadow: none;\n  position: absolute;\n  bottom: 0;\n  border-radius: 50%;\n}\nion-content .mess-toolbar .send-btn {\n  float: right;\n  position: fixed;\n  right: 0px;\n  border: none;\n}\nion-content .mess-toolbar .emoji-btn {\n  float: left;\n  width: 70px;\n  margin-top: 5px;\n  width: 50px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWVzcy1tb2RhbC9DOlxcVXNlcnNcXGh0Y3VjXFxlZHVQcm9qZWN0c1xcaW9uaWNcXGFpc19pb25pYy9zcmNcXGFwcFxcbWVzcy1tb2RhbFxcbWVzcy1tb2RhbC5wYWdlLnNjc3MiLCJzcmMvYXBwL21lc3MtbW9kYWwvbWVzcy1tb2RhbC5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUU7RUFDRSxxQkFBQTtFQUNBLGNBQUE7RUFDQSw0QkFBQTtBQ0RKO0FERUk7RUFDRSxlQUFBO0FDQU47QURHTTtFQUNFLHdCQUFBO0VBQ0Esc0JBQUE7QUNEUjtBRElJO0VBQ0UsV0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtBQ0ZOO0FET0E7RUFFRSxxQkFBQTtBQ0xGO0FEUUk7RUFDRSxxQkFBQTtFQUNBLFdBQUE7RUFDQSxtQkFBQTtBQ05OO0FET007RUFDQSxtQkFBQTtBQ0xOO0FET007RUFDRSxtQkFBQTtFQUNBLDBCQUFBO0VBQ0EsV0FBQTtBQ0xSO0FEUU07RUFDRSxZQUFBO0VBQ0EsbUJBQUE7RUFDQSw4QkFBQTtFQUNBLGlCQUFBO0FDTlI7QURRTTtFQUNFLGNBQUE7RUFDQSxrQkFBQTtBQ05SO0FEV0U7RUFDRSxTQUFBO0VBQ0EsZUFBQTtFQUNBLGVBQUE7RUFDQSxTQUFBO0VBQ0EsV0FBQTtFQUNBLHFCQUFBO0FDVEo7QURVSTtFQUNFLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLFdBQUE7RUFDQSxVQUFBO0VBQ0EsVUFBQTtFQUNBLDhCQUFBO0VBQ0EsV0FBQTtBQ1JOO0FEVUk7RUFDRSxxQkFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxTQUFBO0VBQ0Esa0JBQUE7QUNSTjtBRFVJO0VBQ0UsWUFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0VBQ0EsWUFBQTtBQ1JOO0FEVUk7RUFDRSxXQUFBO0VBQ0EsV0FBQTtFQUNBLGVBQUE7RUFDQSxXQUFBO0FDUk4iLCJmaWxlIjoic3JjL2FwcC9tZXNzLW1vZGFsL21lc3MtbW9kYWwucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbmlvbi1oZWFkZXIge1xyXG4gIGlvbi10b29sYmFyIHtcclxuICAgIC0tYmFja2dyb3VuZDogIzFmMjIyOTtcclxuICAgIGNvbG9yOiAjZmNmYWZmO1xyXG4gICAgYm94LXNoYWRvdzogIzE3MjAyOSAwIDAgMTVweDtcclxuICAgIGlvbi10aXRsZSB7XHJcbiAgICAgIGZvbnQtc2l6ZTogMXJlbTtcclxuICAgIH1cclxuICAgIGlvbi1idXR0b25zIHtcclxuICAgICAgaW9uLWJ1dHRvbiB7XHJcbiAgICAgICAgLS1jb2xvcjogI2ZmZiAhaW1wb3J0YW50O1xyXG4gICAgICAgIGNvbG9yOiAjZmZmICFpbXBvcnRhbnQ7XHJcbiAgICAgIH1cclxuICAgIH1cclxuICAgIC5oZWFkLWltZyB7XHJcbiAgICAgIHdpZHRoOiAzNXB4O1xyXG4gICAgICBoZWlnaHQ6IDM1cHg7XHJcbiAgICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcclxuICAgIH1cclxuICB9XHJcbn1cclxuXHJcbmlvbi1jb250ZW50IHtcclxuICAvLy0tYmFja2dyb3VuZDogdXJsKCcuLi8uLi9hc3NldHMvbG9nX2JrZy5qcGcnKSAwIDAvMTAwJSAxMDAlIG5vLXJlcGVhdDtcclxuICAtLWJhY2tncm91bmQ6ICMxZjIyMjk7XHJcblxyXG4gIGlvbi1ncmlkIHtcclxuICAgIGlvbi1yb3cge1xyXG4gICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICBtYXJnaW4tYm90dG9tOiA1MHB4O1xyXG4gICAgICBpb24tY29sIHtcclxuICAgICAgbWFyZ2luLWJvdHRvbTogMTBweDtcclxuICAgICAgfVxyXG4gICAgICAubWVzcy1mcm9tIHtcclxuICAgICAgICBiYWNrZ3JvdW5kOiAjZmZjZTAwO1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDAgNXB4IDVweCAwO1xyXG4gICAgICAgIGZsb2F0OiBsZWZ0O1xyXG4gICAgICB9XHJcblxyXG4gICAgICAubWVzcy10byB7XHJcbiAgICAgICAgZmxvYXQ6IHJpZ2h0O1xyXG4gICAgICAgIGJhY2tncm91bmQ6ICMyOGUwNzA7XHJcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4IDBweCAwcHggNXB4O1xyXG4gICAgICAgIHRleHQtYWxpZ246IHJpZ2h0O1xyXG4gICAgICB9XHJcbiAgICAgIC5ub3RfbWVzcyB7XHJcbiAgICAgICAgY29sb3I6ICM4Njg4OGY7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAubWVzcy10b29sYmFyIHtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIGRpc3BsYXk6IGlubGluZTtcclxuICAgIHBvc2l0aW9uOiBmaXhlZDtcclxuICAgIGJvdHRvbTogMDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgLS1iYWNrZ3JvdW5kOiAjM2Q0MDQ4O1xyXG4gICAgaW9uLXRleHRhcmVhIHtcclxuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgICBib3R0b206IDNweDtcclxuICAgICAgZmxvYXQ6IGxlZnQ7XHJcbiAgICAgIGxlZnQ6IDU1cHg7XHJcbiAgICAgIHdpZHRoOiA3MyU7XHJcbiAgICAgIC0tYmFja2dyb3VuZDogdHJhbnNwYXJlbnRpemUoKTtcclxuICAgICAgY29sb3I6ICNmZmY7XHJcbiAgICB9XHJcbiAgICBpb24tYnV0dG9uIHtcclxuICAgICAgLS1iYWNrZ3JvdW5kOiAjM2Q0MDQ4O1xyXG4gICAgICAtLWJveC1zaGFkb3c6IG5vbmU7XHJcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgYm90dG9tOiAwO1xyXG4gICAgICBib3JkZXItcmFkaXVzOiA1MCU7XHJcbiAgICB9XHJcbiAgICAuc2VuZC1idG4ge1xyXG4gICAgICBmbG9hdDogcmlnaHQ7XHJcbiAgICAgIHBvc2l0aW9uOiBmaXhlZDtcclxuICAgICAgcmlnaHQ6IDBweDtcclxuICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgfVxyXG4gICAgLmVtb2ppLWJ0biB7XHJcbiAgICAgIGZsb2F0OiBsZWZ0O1xyXG4gICAgICB3aWR0aDogNzBweDtcclxuICAgICAgbWFyZ2luLXRvcDogNXB4O1xyXG4gICAgICB3aWR0aDogNTBweDtcclxuICAgIH1cclxuICB9XHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcbn1cclxuXHJcblxyXG5cclxuIiwiaW9uLWhlYWRlciBpb24tdG9vbGJhciB7XG4gIC0tYmFja2dyb3VuZDogIzFmMjIyOTtcbiAgY29sb3I6ICNmY2ZhZmY7XG4gIGJveC1zaGFkb3c6ICMxNzIwMjkgMCAwIDE1cHg7XG59XG5pb24taGVhZGVyIGlvbi10b29sYmFyIGlvbi10aXRsZSB7XG4gIGZvbnQtc2l6ZTogMXJlbTtcbn1cbmlvbi1oZWFkZXIgaW9uLXRvb2xiYXIgaW9uLWJ1dHRvbnMgaW9uLWJ1dHRvbiB7XG4gIC0tY29sb3I6ICNmZmYgIWltcG9ydGFudDtcbiAgY29sb3I6ICNmZmYgIWltcG9ydGFudDtcbn1cbmlvbi1oZWFkZXIgaW9uLXRvb2xiYXIgLmhlYWQtaW1nIHtcbiAgd2lkdGg6IDM1cHg7XG4gIGhlaWdodDogMzVweDtcbiAgYm9yZGVyLXJhZGl1czogNTAlO1xufVxuXG5pb24tY29udGVudCB7XG4gIC0tYmFja2dyb3VuZDogIzFmMjIyOTtcbn1cbmlvbi1jb250ZW50IGlvbi1ncmlkIGlvbi1yb3cge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHdpZHRoOiAxMDAlO1xuICBtYXJnaW4tYm90dG9tOiA1MHB4O1xufVxuaW9uLWNvbnRlbnQgaW9uLWdyaWQgaW9uLXJvdyBpb24tY29sIHtcbiAgbWFyZ2luLWJvdHRvbTogMTBweDtcbn1cbmlvbi1jb250ZW50IGlvbi1ncmlkIGlvbi1yb3cgLm1lc3MtZnJvbSB7XG4gIGJhY2tncm91bmQ6ICNmZmNlMDA7XG4gIGJvcmRlci1yYWRpdXM6IDAgNXB4IDVweCAwO1xuICBmbG9hdDogbGVmdDtcbn1cbmlvbi1jb250ZW50IGlvbi1ncmlkIGlvbi1yb3cgLm1lc3MtdG8ge1xuICBmbG9hdDogcmlnaHQ7XG4gIGJhY2tncm91bmQ6ICMyOGUwNzA7XG4gIGJvcmRlci1yYWRpdXM6IDVweCAwcHggMHB4IDVweDtcbiAgdGV4dC1hbGlnbjogcmlnaHQ7XG59XG5pb24tY29udGVudCBpb24tZ3JpZCBpb24tcm93IC5ub3RfbWVzcyB7XG4gIGNvbG9yOiAjODY4ODhmO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5pb24tY29udGVudCAubWVzcy10b29sYmFyIHtcbiAgbWFyZ2luOiAwO1xuICBkaXNwbGF5OiBpbmxpbmU7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgYm90dG9tOiAwO1xuICB3aWR0aDogMTAwJTtcbiAgLS1iYWNrZ3JvdW5kOiAjM2Q0MDQ4O1xufVxuaW9uLWNvbnRlbnQgLm1lc3MtdG9vbGJhciBpb24tdGV4dGFyZWEge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGJvdHRvbTogM3B4O1xuICBmbG9hdDogbGVmdDtcbiAgbGVmdDogNTVweDtcbiAgd2lkdGg6IDczJTtcbiAgLS1iYWNrZ3JvdW5kOiB0cmFuc3BhcmVudGl6ZSgpO1xuICBjb2xvcjogI2ZmZjtcbn1cbmlvbi1jb250ZW50IC5tZXNzLXRvb2xiYXIgaW9uLWJ1dHRvbiB7XG4gIC0tYmFja2dyb3VuZDogIzNkNDA0ODtcbiAgLS1ib3gtc2hhZG93OiBub25lO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGJvdHRvbTogMDtcbiAgYm9yZGVyLXJhZGl1czogNTAlO1xufVxuaW9uLWNvbnRlbnQgLm1lc3MtdG9vbGJhciAuc2VuZC1idG4ge1xuICBmbG9hdDogcmlnaHQ7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgcmlnaHQ6IDBweDtcbiAgYm9yZGVyOiBub25lO1xufVxuaW9uLWNvbnRlbnQgLm1lc3MtdG9vbGJhciAuZW1vamktYnRuIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIHdpZHRoOiA3MHB4O1xuICBtYXJnaW4tdG9wOiA1cHg7XG4gIHdpZHRoOiA1MHB4O1xufSJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/mess-modal/mess-modal.page.ts":
+/*!***********************************************!*\
+  !*** ./src/app/mess-modal/mess-modal.page.ts ***!
+  \***********************************************/
+/*! exports provided: MessModalPage */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MessModalPage", function() { return MessModalPage; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _api_auth_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../api/auth.service */ "./src/app/api/auth.service.ts");
+/* harmony import */ var _api_auth_guard__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../api/auth.guard */ "./src/app/api/auth.guard.ts");
+/* harmony import */ var _ionic_storage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic/storage */ "./node_modules/@ionic/storage/fesm2015/ionic-storage.js");
+
+
+
+
+
+
+
+let MessModalPage = class MessModalPage {
+    constructor(modalController, navParams, authGuard, authService, storage) {
+        this.modalController = modalController;
+        this.navParams = navParams;
+        this.authGuard = authGuard;
+        this.authService = authService;
+        this.storage = storage;
+        this.token = '';
+        this.toggled = false;
+        this.notMess = false;
+    }
+    ngOnInit() {
+        this.user_id = this.navParams.data.user_id;
+        this.my_id = this.navParams.data.my_id;
+        this.token = this.navParams.data.token;
+        this.user = this.navParams.data.user;
+        this.messLists(this.user_id);
+        this.realizeIt(this.user);
+        console.table('data: ', this.navParams.data);
+    }
+    realizeIt(user) {
+        if (user.user.toString().length > 0) {
+            this.user_name = user.user + ' ' + user.family;
+        }
+        else {
+            this.user_name = 'Без имени';
+        }
+    }
+    closeModal() {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            const onClosedData = 'Wrapped Up!';
+            yield this.modalController.dismiss(onClosedData);
+        });
+    }
+    handleSelection(event) {
+        this.message = this.message + '' + event.char;
+    }
+    messLists(id, mess = '') {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            let redata = [];
+            yield axios__WEBPACK_IMPORTED_MODULE_3___default.a.post('http://studentapi.myknitu.ru/getdialog/', {
+                'token': this.token,
+                'userto': id
+            }).then(res => {
+                if (res.data.messages) {
+                    console.log(res.data);
+                    if (res.data.messages[0]) {
+                        this.messList = res.data.messages;
+                        console.log(res.data.messages);
+                    }
+                }
+            });
+        });
+    }
+    pushMsg(text) {
+        this.messList.push({
+            'to_id': this.user_id,
+            'message': text,
+            'from_id': this.my_id
+        });
+    }
+    sendIt(e) {
+        console.log('sending ', this.token);
+        axios__WEBPACK_IMPORTED_MODULE_3___default.a.post('http://studentapi.myknitu.ru/sendmessage/', {
+            'token': this.token,
+            'userto': this.user_id,
+            'message': this.message
+        }).then(res => {
+            console.log(res.data.status);
+            if (res.data.status) {
+                if (this.messList) {
+                    this.pushMsg(this.message);
+                }
+                else {
+                    this.messList = [
+                        {
+                            'to_id': this.user_id,
+                            'message': this.message,
+                            'from_id': this.my_id
+                        }
+                    ];
+                }
+                this.message = '';
+            }
+        });
+    }
+};
+MessModalPage.ctorParameters = () => [
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["NavParams"] },
+    { type: _api_auth_guard__WEBPACK_IMPORTED_MODULE_5__["AuthGuard"] },
+    { type: _api_auth_service__WEBPACK_IMPORTED_MODULE_4__["AuthService"] },
+    { type: _ionic_storage__WEBPACK_IMPORTED_MODULE_6__["Storage"] }
+];
+MessModalPage = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-mess-modal',
+        template: __webpack_require__(/*! raw-loader!./mess-modal.page.html */ "./node_modules/raw-loader/index.js!./src/app/mess-modal/mess-modal.page.html"),
+        styles: [__webpack_require__(/*! ./mess-modal.page.scss */ "./src/app/mess-modal/mess-modal.page.scss")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["NavParams"],
+        _api_auth_guard__WEBPACK_IMPORTED_MODULE_5__["AuthGuard"],
+        _api_auth_service__WEBPACK_IMPORTED_MODULE_4__["AuthService"],
+        _ionic_storage__WEBPACK_IMPORTED_MODULE_6__["Storage"]])
+], MessModalPage);
 
 
 

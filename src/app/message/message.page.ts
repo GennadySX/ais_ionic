@@ -18,7 +18,7 @@ export class MessagePage implements OnInit {
     titlePage = 'Сообщение';
     dataReturned: any;
     token: '';
-    userList: [];
+    userList: any[];
     Iam: any;
     my_id: string;
 
@@ -37,13 +37,14 @@ export class MessagePage implements OnInit {
 
     }
 
-    async openModal(id) {
+    async openModal(user) {
         const modal = await this.modalController.create({
             component: MessModalPage,
             componentProps: {
-                'user_id': id,
+                'user_id': user.id,
                 'my_id': this.Iam.id_user,
-                'token': this.token
+                'token': this.token,
+                'user': user
             },
             animated: false
         });
@@ -66,14 +67,14 @@ export class MessagePage implements OnInit {
     }
 
 
-    async  getUserList() {
+    async getUserList() {
         let load = {
             'token': this.token
         };
         console.log(load);
-      axios.post('http://studentapi.myknitu.ru/listusers/', load).then(res => {
+        axios.post('http://studentapi.myknitu.ru/listusers/', load).then(res => {
             if (res.data.users) {
-              this.checkMessages(res.data.users);
+                this.checkMessages(res.data.users);
             }
         });
     }
@@ -83,11 +84,11 @@ export class MessagePage implements OnInit {
         let userdata = [];
         for (let user of userlist) {
             const load = {
-                     'token': this.token,
-                    'userto': user.id
-            }
-          axios.post('http://studentapi.myknitu.ru/getdialog/', load).then(res => {
-                if (res.data.messages ) {
+                'token': this.token,
+                'userto': user.id
+            };
+            axios.post('http://studentapi.myknitu.ru/getdialog/', load).then(res => {
+                if (res.data.messages) {
                     if (res.data.messages[0]) {
                         userdata.push(user);
                     }
@@ -108,5 +109,12 @@ export class MessagePage implements OnInit {
         return true;
     }
 
+    updateList(e) {
+        this.getToken();
+        setTimeout(() => {
+            e.target.complete();
+        }, 500);
+
+    }
 
 }

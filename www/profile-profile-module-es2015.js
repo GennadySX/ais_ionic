@@ -1666,11 +1666,11 @@ let ProfilePage = class ProfilePage {
     /************************************************/
     changeAvatar(image64) {
         axios__WEBPACK_IMPORTED_MODULE_5___default.a.post('http://studentapi.myknitu.ru/updateuserimage/', {
-            "token": this.token,
-            "img": image64
+            'token': this.token,
+            'img': image64
         }).then(res => {
             if (res.data.status) {
-                this.notAlert("Оп оп оп ", "Ваша аватарка изменилась!");
+                this.notAlert('Оп оп оп ', 'Ваша аватарка изменилась!');
             }
         });
     }
@@ -1720,7 +1720,7 @@ let ProfilePage = class ProfilePage {
         return true;
     }
     getUserData() {
-        //console.log('axios token ', this.token);
+        console.log('axios token ', this.token);
         const tokenLog = { 'token': this.token };
         axios__WEBPACK_IMPORTED_MODULE_5___default.a.post('http://studentapi.myknitu.ru/getuser/', tokenLog).then(res => {
             console.log(res.data);
