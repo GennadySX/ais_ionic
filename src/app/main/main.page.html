@@ -15,7 +15,8 @@
               <ng-template #userFamily> <p class="user-lastname" >Без Фамилии</p> </ng-template>
               <p class="user-firstname" *ngIf="user.user; else userName">{{user.user}}</p>
               <ng-template #userName><p class="user-firstname" >Без имени</p></ng-template>
-              <ion-badge>{{i}}</ion-badge>
+              <p>ID: {{user.id}}</p>
+              <ion-badge>{{i+1}}</ion-badge>
               <ion-button (click)="openModal(user)">Написать</ion-button>
           </div>
 
