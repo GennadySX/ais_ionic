@@ -251,6 +251,8 @@ export class ProfilePage implements OnInit {
                 console.log(res.data);
                 if (res.data.status) {
                     this.notAlert('Обновление', 'Ваши данные обновились!');
+                    this.userData.user = this.firstname;
+                    this.userData.family = this.lastname;
                 }
             } else {
                 this.notAlert('Ошибка', 'Проверьте данные для доступности сервера');

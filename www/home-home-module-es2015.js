@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-tabs class=\"tab-panel\" color=\"primary\">\r\n\r\n  <ion-tab-bar slot=\"bottom\">\r\n    <ion-tab-button tab=\"main\">\r\n      <ion-icon name=\"home\"></ion-icon>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"gallery\">\r\n      <ion-icon name=\"md-albums\"></ion-icon>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"message\">\r\n      <ion-icon name=\"ios-chatbubbles\"></ion-icon>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"profile\">\r\n      <ion-icon name=\"contact\"></ion-icon>\r\n    </ion-tab-button>\r\n  </ion-tab-bar>\r\n</ion-tabs>\r\n"
+module.exports = "<ion-tabs class=\"tab-panel\" color=\"primary\">\n\n  <ion-tab-bar slot=\"bottom\">\n    <ion-tab-button tab=\"main\">\n      <ion-icon name=\"home\"></ion-icon>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"gallery\">\n      <ion-icon name=\"ios-albums\"></ion-icon>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"message\">\n      <ion-icon name=\"ios-chatbubbles\"></ion-icon>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"profile\">\n      <ion-icon name=\"contact\"></ion-icon>\n    </ion-tab-button>\n  </ion-tab-bar>\n</ion-tabs>\n"
 
 /***/ }),
 
@@ -60,7 +60,7 @@ HomePageModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".tab-panel, ion-tab-button {\n  border-color: #1e2023;\n  --background: #1f2229;\n  box-shadow: #6d9160 5px 5px 10px;\n}\n\n.tabs-md .tabbar, .tabs-ios .tabbar {\n  background: -webkit-gradient(linear, left top, left bottom, from(#0384da), to(#0c1721));\n  background: linear-gradient(#0384da, #0c1721);\n}\n\n.tab-has-icon {\n  color: #506166;\n}\n\n.tab-selected {\n  color: #ffffff;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9DOlxcVXNlcnNcXGh0Y3VjXFxlZHVQcm9qZWN0c1xcaW9uaWNcXGFpc19pb25pYy9zcmNcXGFwcFxcaG9tZVxcaG9tZS5wYWdlLnNjc3MiLCJzcmMvYXBwL2hvbWUvaG9tZS5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0E7RUFDRSxxQkFBQTtFQUNBLHFCQUFBO0VBQ0EsZ0NBQUE7QUNBRjs7QURJQTtFQUNFLHVGQUFBO0VBQUEsNkNBQUE7QUNERjs7QURJQTtFQUNFLGNBQUE7QUNERjs7QURJQTtFQUNFLGNBQUE7QUNERiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvaG9tZS5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuLnRhYi1wYW5lbCwgaW9uLXRhYi1idXR0b24ge1xyXG4gIGJvcmRlci1jb2xvcjogIzFlMjAyMztcclxuICAtLWJhY2tncm91bmQ6ICMxZjIyMjk7XHJcbiAgYm94LXNoYWRvdzogIzZkOTE2MCA1cHggNXB4IDEwcHg7XHJcblxyXG59XHJcblxyXG4udGFicy1tZCAudGFiYmFyLC50YWJzLWlvcyAudGFiYmFyIHtcclxuICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQocmdiKDMsIDEzMiwgMjE4KSwgcmdiKDEyLCAyMywgMzMpKTtcclxufVxyXG5cclxuLnRhYi1oYXMtaWNvbiB7XHJcbiAgY29sb3I6ICM1MDYxNjY7XHJcbn1cclxuXHJcbi50YWItc2VsZWN0ZWQge1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG59XHJcbiIsIi50YWItcGFuZWwsIGlvbi10YWItYnV0dG9uIHtcbiAgYm9yZGVyLWNvbG9yOiAjMWUyMDIzO1xuICAtLWJhY2tncm91bmQ6ICMxZjIyMjk7XG4gIGJveC1zaGFkb3c6ICM2ZDkxNjAgNXB4IDVweCAxMHB4O1xufVxuXG4udGFicy1tZCAudGFiYmFyLCAudGFicy1pb3MgLnRhYmJhciB7XG4gIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgjMDM4NGRhLCAjMGMxNzIxKTtcbn1cblxuLnRhYi1oYXMtaWNvbiB7XG4gIGNvbG9yOiAjNTA2MTY2O1xufVxuXG4udGFiLXNlbGVjdGVkIHtcbiAgY29sb3I6ICNmZmZmZmY7XG59Il19 */"
+module.exports = ".tab-panel, ion-tab-button {\n  border-color: #1e2023;\n  --background: #1f2229;\n  box-shadow: #6d9160 5px 5px 10px;\n}\n\n.tabs-md .tabbar, .tabs-ios .tabbar {\n  background: -webkit-gradient(linear, left top, left bottom, from(#0384da), to(#0c1721));\n  background: linear-gradient(#0384da, #0c1721);\n}\n\n.tab-has-icon {\n  color: #506166;\n}\n\n.tab-selected {\n  color: #ffffff;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9DOlxcVXNlcnNcXGh0Y3VjXFxlZHVQcm9qZWN0c1xcaW9uaWNcXGFpc19pb25pYy9zcmNcXGFwcFxcaG9tZVxcaG9tZS5wYWdlLnNjc3MiLCJzcmMvYXBwL2hvbWUvaG9tZS5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0E7RUFDRSxxQkFBQTtFQUNBLHFCQUFBO0VBQ0EsZ0NBQUE7QUNBRjs7QURJQTtFQUNFLHVGQUFBO0VBQUEsNkNBQUE7QUNERjs7QURJQTtFQUNFLGNBQUE7QUNERjs7QURJQTtFQUNFLGNBQUE7QUNERiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvaG9tZS5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi50YWItcGFuZWwsIGlvbi10YWItYnV0dG9uIHtcbiAgYm9yZGVyLWNvbG9yOiAjMWUyMDIzO1xuICAtLWJhY2tncm91bmQ6ICMxZjIyMjk7XG4gIGJveC1zaGFkb3c6ICM2ZDkxNjAgNXB4IDVweCAxMHB4O1xuXG59XG5cbi50YWJzLW1kIC50YWJiYXIsLnRhYnMtaW9zIC50YWJiYXIge1xuICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQocmdiKDMsIDEzMiwgMjE4KSwgcmdiKDEyLCAyMywgMzMpKTtcbn1cblxuLnRhYi1oYXMtaWNvbiB7XG4gIGNvbG9yOiAjNTA2MTY2O1xufVxuXG4udGFiLXNlbGVjdGVkIHtcbiAgY29sb3I6ICNmZmZmZmY7XG59XG4iLCIudGFiLXBhbmVsLCBpb24tdGFiLWJ1dHRvbiB7XG4gIGJvcmRlci1jb2xvcjogIzFlMjAyMztcbiAgLS1iYWNrZ3JvdW5kOiAjMWYyMjI5O1xuICBib3gtc2hhZG93OiAjNmQ5MTYwIDVweCA1cHggMTBweDtcbn1cblxuLnRhYnMtbWQgLnRhYmJhciwgLnRhYnMtaW9zIC50YWJiYXIge1xuICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoIzAzODRkYSwgIzBjMTcyMSk7XG59XG5cbi50YWItaGFzLWljb24ge1xuICBjb2xvcjogIzUwNjE2Njtcbn1cblxuLnRhYi1zZWxlY3RlZCB7XG4gIGNvbG9yOiAjZmZmZmZmO1xufSJdfQ== */"
 
 /***/ }),
 
@@ -154,15 +154,6 @@ const routes = [
                     {
                         path: '',
                         loadChildren: () => __webpack_require__.e(/*! import() | message-message-module */ "message-message-module").then(__webpack_require__.bind(null, /*! ../message/message.module */ "./src/app/message/message.module.ts")).then(m => m.MessagePageModule)
-                    }
-                ]
-            },
-            {
-                path: 'room',
-                children: [
-                    {
-                        path: '',
-                        loadChildren: () => Promise.resolve(/*! import() */).then(__webpack_require__.bind(null, /*! ../mess-modal/mess-modal.module */ "./src/app/mess-modal/mess-modal.module.ts")).then(m => m.MessModalPageModule)
                     }
                 ]
             }
