@@ -1463,7 +1463,7 @@ FileUploadModule.decorators = [
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-header>\n  <ion-toolbar>\n    <div class=\"head_panel\">\n      <ion-title>Профиль </ion-title>\n      <button (click)=\"logout()\"> <ion-icon name=\"exit\"></ion-icon></button>\n    </div>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n<div class=\"content_div\">\n  <div class=\"data_panel\">\n    <h3 class=\"name_p\">{{userData.user}} {{userData.family}}</h3>\n    <h3 class=\"login_p\">{{userData.login}}</h3>\n  </div>\n\n  <ion-col class=\"avatar\" >\n    <img [src]=\"fileImage\" class=\"avatar_img\" alt=\"\">\n    <label class=\"change_avatar\" for=\"fileUp\" (click)=\"selectImage()\">\n      <ion-icon name=\"create\" class=\"icon_upload\"></ion-icon>\n    </label>\n  </ion-col>\n</div>\n  <ion-card>\n    <ion-item>\n      <ion-label position=\"floating\" >Ваш логин:</ion-label>\n      <ion-input  type=\"email\"  [(ngModel)]=\"userLogin\"  pattern=\"[A-Za-z0-9._%+-]{3,}@[a-zA-Z]{3,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})\"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label position=\"floating\" >Ваше имя:</ion-label>\n      <ion-input  type=\"text\" [(ngModel)]=\"firstname\"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label position=\"floating\" >Ваша фамилия:</ion-label>\n      <ion-input  type=\"text\" [(ngModel)]=\"lastname\"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label position=\"floating\" >Дата рождение:</ion-label>\n      <ion-datetime displayFormat=\"DD.MM.YYYY\" max=\"2005-08-23\" min=\"1944-08-23\" [(ngModel)]=\"birth\"></ion-datetime>\n    </ion-item>\n    <ion-item>\n      <ion-label position=\"floating\" >Ваш номер:</ion-label>\n      <ion-input  type=\"text\" [(ngModel)]=\"phonenumber\"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label position=\"floating\" >Ваш VK:</ion-label>\n      <ion-input  type=\"text\" [(ngModel)]=\"vk\"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label position=\"floating\" >Ваш Skype:</ion-label>\n      <ion-input  type=\"text\" [(ngModel)]=\"skype\"></ion-input>\n    </ion-item>\n  </ion-card>\n    <ion-button class=\"user-update\" (click)=\"updateUser()\">Обновить</ion-button>\n  <br>\n    <ion-button (click)=\"presentAlert()\">\n   Данный токен\n  </ion-button>\n  <ion-button (click)=\"getUserData()\">\n    Данные в консоле\n  </ion-button>\n</ion-content>\n\n"
+module.exports = "<ion-header>\n  <ion-toolbar>\n    <div class=\"head_panel\">\n      <ion-title>Профиль </ion-title>\n      <button (click)=\"logout()\"> <ion-icon name=\"exit\"></ion-icon></button>\n    </div>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n<div class=\"content_div\">\n  <div class=\"data_panel\">\n    <h3 class=\"name_p\">{{firstname_l}} {{lastname_l}}</h3>\n    <h3 class=\"login_p\">{{userData.login}}</h3>\n  </div>\n\n  <ion-col class=\"avatar\" >\n    <img [src]=\"fileImage\" class=\"avatar_img\" alt=\"\">\n    <label class=\"change_avatar\" for=\"fileUp\" (click)=\"selectImage()\">\n      <ion-icon name=\"create\" class=\"icon_upload\"></ion-icon>\n    </label>\n  </ion-col>\n</div>\n  <ion-card>\n    <ion-item>\n      <ion-label position=\"floating\" >Ваш логин:</ion-label>\n      <ion-input  type=\"email\"  [(ngModel)]=\"userLogin\" disabled></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label position=\"floating\" >Ваше имя:</ion-label>\n      <ion-input  type=\"text\" [(ngModel)]=\"firstname\"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label position=\"floating\" >Ваша фамилия:</ion-label>\n      <ion-input  type=\"text\" [(ngModel)]=\"lastname\"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label position=\"floating\" >Дата рождение:</ion-label>\n      <ion-datetime displayFormat=\"DD.MM.YYYY\" max=\"2005-08-23\" min=\"1944-08-23\" [(ngModel)]=\"birth\"></ion-datetime>\n    </ion-item>\n    <ion-item>\n      <ion-label position=\"floating\" >Ваш номер:</ion-label>\n      <ion-input  type=\"text\" [(ngModel)]=\"phonenumber\"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label position=\"floating\" >Ваш VK:</ion-label>\n      <ion-input  type=\"text\" [(ngModel)]=\"vk\"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label position=\"floating\" >Ваш Skype:</ion-label>\n      <ion-input  type=\"text\" [(ngModel)]=\"skype\"></ion-input>\n    </ion-item>\n  </ion-card>\n    <ion-button class=\"user-update\" (click)=\"updateUser()\">Обновить</ion-button>\n  <br>\n    <ion-button (click)=\"presentAlert()\">\n   Данный токен\n  </ion-button>\n  <ion-button (click)=\"getUserData()\">\n    Данные в консоле\n  </ion-button>\n</ion-content>\n\n"
 
 /***/ }),
 
@@ -1589,6 +1589,8 @@ let ProfilePage = class ProfilePage {
         this.imagePicker = imagePicker;
         this.token = '';
         this.username = '';
+        this.firstname_l = '';
+        this.lastname_l = '';
         this.userData = {};
         this.input = '';
         this.img = '';
@@ -1731,7 +1733,9 @@ let ProfilePage = class ProfilePage {
                 this.fileImage = user.img;
                 this.userLogin = user.login;
                 this.firstname = user.user;
+                this.firstname_l = user.user;
                 this.lastname = user.family;
+                this.lastname_l = user.family;
                 this.dateRealiseGetUser(user.birthday);
                 this.phonenumber = user.phonenumber;
                 this.vk = user.vk;
@@ -1755,6 +1759,8 @@ let ProfilePage = class ProfilePage {
                 console.log(res.data);
                 if (res.data.status) {
                     this.notAlert('Обновление', 'Ваши данные обновились!');
+                    this.firstname_l = this.firstname;
+                    this.lastname_l = this.lastname;
                 }
             }
             else {

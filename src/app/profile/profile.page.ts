@@ -26,6 +26,8 @@ import {ImagePicker} from '@ionic-native/image-picker/ngx';
 export class ProfilePage implements OnInit {
     token = '';
     username = '';
+    firstname_l = '';
+    lastname_l = '';
     userData = {};
     input = '';
     img = '';
@@ -221,7 +223,9 @@ export class ProfilePage implements OnInit {
                 this.fileImage = user.img;
                 this.userLogin = user.login;
                 this.firstname = user.user;
+                this.firstname_l = user.user;
                 this.lastname = user.family;
+                this.lastname_l = user.family;
                 this.dateRealiseGetUser(user.birthday);
                 this.phonenumber = user.phonenumber;
                 this.vk = user.vk;
@@ -251,8 +255,8 @@ export class ProfilePage implements OnInit {
                 console.log(res.data);
                 if (res.data.status) {
                     this.notAlert('Обновление', 'Ваши данные обновились!');
-                    this.userData.user = this.firstname;
-                    this.userData.family = this.lastname;
+                    this.firstname_l = this.firstname ;
+                    this.lastname_l =  this.lastname;
                 }
             } else {
                 this.notAlert('Ошибка', 'Проверьте данные для доступности сервера');
