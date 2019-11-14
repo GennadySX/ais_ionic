@@ -2,9 +2,1263 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3e2758-a86f-48a1-96ee-11abac268c10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/main/main.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/message/message.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/message/message.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-main-module-es2015.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-main-module-es2015.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-main-module-es2015.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-main-module-es2015.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-main-module-es5.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-main-module-es5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-main-module-es5.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-main-module-es5.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/message-message-module-es2015.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/message-message-module-es2015.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/message-message-module-es2015.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/message-message-module-es2015.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/message-message-module-es5.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/message-message-module-es5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/message-message-module-es5.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/message-message-module-es5.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth.guard.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/gallery/gallery.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/gallery/gallery.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/gallery/gallery.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/gallery/gallery.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/gallery/gallery.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/gallery/upload/upload.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/gallery/upload/upload.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/gallery/upload/upload.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/gallery/upload/upload.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/home.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/home.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/home.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/home.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/home.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/home.router.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/login.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/login.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/login.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/login.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/login.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/register/register.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/register/register.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/register/register.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/register/register.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/register/register.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/main.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/main.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/main.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/main.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/main.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/mess-modal/mess-modal.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/mess-modal/mess-modal.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/mess-modal/mess-modal.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/mess-modal/mess-modal.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/mess-modal/mess-modal.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/message.pipe.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/message.pipe.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/message/message.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/message/message.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/message/message.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/message/message.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/message/message.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/logout/logout.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/logout/logout.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/logout/logout.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/logout/logout.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/profile.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/profile.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/profile.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/profile.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profile/profile.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/City7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/anonymus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icon/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/log_bkg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zone-flags.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/0-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/0-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/0-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/0-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/1-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/1-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/1-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/1-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/10-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/10-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/10-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/10-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/11-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/11-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/11-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/11-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/12-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/12-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/12-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/12-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/13-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/13-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/13-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/13-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/14-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/14-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/14-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/14-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/15-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/15-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/15-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/15-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/16-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/16-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/16-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/16-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/17-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/17-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/17-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/17-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/18-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/18-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/18-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/18-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/19-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/19-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/19-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/19-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/2-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/2-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/2-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/2-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/20-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/20-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/20-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/20-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/21-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/21-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/21-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/21-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/22-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/22-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/22-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/22-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/23-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/23-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/23-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/23-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/24-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/24-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/24-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/24-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/25-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/25-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/25-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/25-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/26-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/26-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/26-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/26-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/27-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/27-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/27-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/27-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/28-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/28-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/28-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/28-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/29-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/29-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/29-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/29-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/3-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/3-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/3-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/3-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/30-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/30-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/30-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/30-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/31-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/31-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/31-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/31-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/32-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/32-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/32-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/32-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/33-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/33-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/33-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/33-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/34-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/34-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/34-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/34-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/35-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/35-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/35-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/35-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/36-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/36-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/36-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/36-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/37-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/37-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/37-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/37-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/38-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/38-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/38-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/38-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/39-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/39-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/39-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/39-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/4-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/4-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/4-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/4-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/40-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/40-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/40-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/40-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/41-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/41-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/41-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/41-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/42-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/42-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/42-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/42-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/43-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/43-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/43-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/43-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/44-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/44-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/44-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/44-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/45-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/45-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/45-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/45-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/46-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/46-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/46-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/46-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/47-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/47-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/47-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/47-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/48-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/48-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/48-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/48-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/49-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/49-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/49-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/49-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/5-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/5-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/5-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/5-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/50-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/50-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/50-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/50-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/51-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/51-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/51-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/51-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/52-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/52-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/52-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/52-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/53-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/53-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/53-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/53-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/54-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/54-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/54-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/54-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/55-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/55-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/55-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/55-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/56-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/56-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/56-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/56-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/57-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/57-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/57-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/57-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/58-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/58-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/58-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/58-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/59-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/59-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/59-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/59-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/6-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/6-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/6-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/6-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/60-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/60-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/60-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/60-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/61-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/61-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/61-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/61-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/62-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/62-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/62-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/62-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/63-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/63-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/63-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/63-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/64-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/64-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/64-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/64-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/65-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/65-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/65-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/65-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/66-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/66-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/66-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/66-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/67-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/67-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/67-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/67-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/68-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/68-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/68-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/68-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/69-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/69-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/69-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/69-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/7-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/7-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/7-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/7-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/70-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/70-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/70-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/70-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/71-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/71-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/71-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/71-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/72-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/72-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/72-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/72-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/73-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/73-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/73-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/73-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/74-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/74-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/74-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/74-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/75-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/75-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/75-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/75-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/76-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/76-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/76-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/76-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/77-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/77-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/77-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/77-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/78-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/78-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/8-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/8-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/8-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/8-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/9-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/9-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/9-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/9-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/anonymus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/City7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/anonymus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/icon/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/log_bkg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/common-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/common-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/common-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/common-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/cordova-js-src/android/nativeapiprovider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/cordova-js-src/android/promptbasednativeapi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/cordova-js-src/exec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/cordova-js-src/platform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/cordova-js-src/plugin/android/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/cordova.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/cordova.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/cordova_plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/core-js-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/core-js-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/core-js-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/core-js-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css-shim-206ea950-3169f23e-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css-shim-206ea950-3169f23e-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css-shim-206ea950-3169f23e-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css-shim-206ea950-3169f23e-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/dom-96781eef-a2fb04dd-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/dom-96781eef-a2fb04dd-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/dom-96781eef-a2fb04dd-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/dom-96781eef-a2fb04dd-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/dom-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/dom-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/dom-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/dom-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/focus-visible-70713a0c-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/focus-visible-70713a0c-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/focus-visible-70713a0c-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/focus-visible-70713a0c-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/gallery-gallery-module-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/gallery-gallery-module-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/gallery-gallery-module-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/gallery-gallery-module-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/hardware-back-button-5afe3cb0-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/hardware-back-button-5afe3cb0-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/hardware-back-button-5afe3cb0-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/hardware-back-button-5afe3cb0-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/home-home-module-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/home-home-module-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/home-home-module-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/home-home-module-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index-69c37885-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index-69c37885-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index-69c37885-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index-69c37885-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/input-shims-a4fc53ac-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/input-shims-a4fc53ac-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/input-shims-a4fc53ac-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/input-shims-a4fc53ac-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/ios-transition-836e46fb-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/ios-transition-836e46fb-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/ios-transition-836e46fb-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/ios-transition-836e46fb-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/login-login-module-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/login-login-module-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/login-login-module-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/login-login-module-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/login-register-register-module-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/login-register-register-module-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/login-register-register-module-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/login-register-register-module-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-main-module-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-main-module-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-main-module-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-main-module-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/md-transition-5091809d-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/md-transition-5091809d-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/md-transition-5091809d-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/md-transition-5091809d-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/message-message-module-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/message-message-module-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/message-message-module-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/message-message-module-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/com-sarriaroman-photoviewer/www/PhotoViewer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-camera/www/Camera.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-camera/www/CameraConstants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-camera/www/CameraPopoverHandle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-camera/www/CameraPopoverOptions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-crop/www/crop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-device/www/device.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file-transfer/www/FileTransfer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file-transfer/www/FileTransferError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/DirectoryEntry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/DirectoryReader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/Entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/File.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileEntry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileReader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileUploadOptions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileUploadResult.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileWriter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/Flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/LocalFileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/Metadata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/ProgressEvent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/android/FileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/browser/isChrome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/fileSystemPaths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/fileSystems-roots.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/fileSystems.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/requestFileSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/resolveLocalFileSystemURI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-filepath/www/FilePath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-ionic-webview/src/www/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-splashscreen/www/splashscreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-statusbar/www/statusbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-telerik-imagepicker/www/imagepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/polyfills-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/polyfills-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/polyfills-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/polyfills-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/profile-profile-module-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/profile-profile-module-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/profile-profile-module-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/profile-profile-module-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/runtime-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/runtime-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/runtime-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/runtime-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/shadow-css-4889ae62-23996f3f-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/shadow-css-4889ae62-23996f3f-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/shadow-css-4889ae62-23996f3f-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/shadow-css-4889ae62-23996f3f-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/status-tap-a0df8284-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/status-tap-a0df8284-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/status-tap-a0df8284-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/status-tap-a0df8284-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/styles-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/styles-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/styles-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/styles-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-add-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-add-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-airplane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-alarm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-albums.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-american-football.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-analytics.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-aperture.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-apps.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-appstore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-archive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-dropdown-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-dropdown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-dropleft-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-dropleft.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-dropright-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-dropright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-dropup-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-dropup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-round-back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-round-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-round-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-round-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-arrow-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-at.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-attach.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-backspace.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-barcode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-baseball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-basket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-basketball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-battery-charging.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-battery-dead.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-battery-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-beaker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-bed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-beer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-bicycle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-bluetooth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-boat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-body.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-bonfire.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-bookmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-bookmarks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-bowtie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-briefcase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-browsers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-brush.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-bug.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-build.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-bulb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-bus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-business.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cafe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-calculator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-call.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-car.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cellular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-chatboxes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-chatbubbles.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-checkbox-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-checkbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-checkmark-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-checkmark-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-checkmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-clipboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-close-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-close-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cloud-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cloud-done.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cloud-download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cloud-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cloud-upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cloudy-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cloudy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-code-download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-code-working.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-code.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-color-fill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-color-filter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-color-palette.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-color-wand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-compass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-construct.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-contact.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-contacts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-contract.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-contrast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-create.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-crop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-cut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-desktop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-disc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-document.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-done-all.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-easel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-egg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-exit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-expand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-eye-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-fastforward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-female.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-filing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-film.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-finger-print.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-fitness.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-flag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-flame.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-flash-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-flash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-flashlight.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-flask.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-flower.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-folder-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-folder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-football.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-funnel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-gift.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-git-branch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-git-commit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-git-compare.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-git-merge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-git-network.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-git-pull-request.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-glasses.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-grid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-hammer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-hand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-happy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-headset.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-heart-dislike.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-heart-empty.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-heart-half.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-heart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-help-buoy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-help-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-help-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-help.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-hourglass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-ice-cream.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-images.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-infinite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-information-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-information-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-information.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-jet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-journal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-key.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-keypad.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-laptop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-leaf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-list-box.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-locate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-log-in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-log-out.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-magnet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-mail-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-mail-unread.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-male.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-man.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-medal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-medical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-medkit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-megaphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-mic-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-mic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-microphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-moon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-more.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-move.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-musical-note.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-musical-notes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-navigate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-notifications-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-notifications-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-notifications.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-nuclear.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-nutrition.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-options.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-outlet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-paper-plane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-paper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-partly-sunny.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-pause.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-paw.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-people.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-person-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-person.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-phone-landscape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-phone-portrait.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-photos.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-pie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-pin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-pint.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-pizza.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-planet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-play-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-podium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-power.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-pricetag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-pricetags.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-print.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-pulse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-qr-scanner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-quote.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-radio-button-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-radio-button-on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-radio.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-rainy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-recording.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-redo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-refresh-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-refresh.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-remove-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-remove-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-remove.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-reorder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-repeat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-resize.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-restaurant.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-return-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-return-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-reverse-camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-rewind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-ribbon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-rocket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-rose.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-sad.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-school.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-send.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-settings.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-share-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-share.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-shirt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-shuffle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-skip-backward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-skip-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-speedometer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-square-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-star-half.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-star-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-stats.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-stopwatch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-subway.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-sunny.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-swap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-switch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-sync.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-tablet-landscape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-tablet-portrait.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-tennisball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-text.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-thermometer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-thumbs-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-thumbs-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-thunderstorm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-time.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-timer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-today.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-train.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-transgender.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-trash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-trending-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-trending-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-trophy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-tv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-umbrella.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-undo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-unlock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-videocam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-volume-high.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-volume-low.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-volume-mute.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-volume-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-walk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-wallet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-warning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-watch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-water.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-wifi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-wine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/ios-woman.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-android.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-angular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-apple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-bitbucket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-bitcoin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-buffer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-chrome.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-closed-captioning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-codepen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-css3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-designernews.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-dribbble.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-dropbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-euro.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-flickr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-foursquare.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-freebsd-devil.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-game-controller-a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-game-controller-b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-google.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-googleplus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-hackernews.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-html5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-ionic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-ionitron.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-javascript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-linkedin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-markdown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-model-s.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-no-smoking.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-nodejs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-npm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-octocat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-pinterest.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-playstation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-polymer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-python.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-reddit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-rss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-sass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-skype.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-slack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-snapchat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-steam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-tumblr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-tux.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-twitch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-usd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-vimeo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-vk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-whatsapp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-windows.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-wordpress.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-xbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-xing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-yahoo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-yen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/logo-youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-add-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-add-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-airplane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-alarm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-albums.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-american-football.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-analytics.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-aperture.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-apps.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-appstore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-archive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-dropdown-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-dropdown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-dropleft-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-dropleft.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-dropright-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-dropright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-dropup-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-dropup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-round-back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-round-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-round-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-round-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-arrow-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-at.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-attach.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-backspace.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-barcode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-baseball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-basket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-basketball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-battery-charging.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-battery-dead.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-battery-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-beaker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-bed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-beer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-bicycle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-bluetooth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-boat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-body.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-bonfire.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-bookmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-bookmarks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-bowtie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-briefcase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-browsers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-brush.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-bug.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-build.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-bulb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-bus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-business.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cafe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-calculator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-call.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-car.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cellular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-chatboxes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-chatbubbles.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-checkbox-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-checkbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-checkmark-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-checkmark-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-checkmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-clipboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-close-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-close-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cloud-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cloud-done.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cloud-download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cloud-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cloud-upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cloudy-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cloudy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-code-download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-code-working.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-code.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-color-fill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-color-filter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-color-palette.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-color-wand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-compass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-construct.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-contact.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-contacts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-contract.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-contrast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-create.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-crop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-cut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-desktop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-disc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-document.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-done-all.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-easel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-egg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-exit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-expand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-eye-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-fastforward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-female.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-filing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-film.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-finger-print.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-fitness.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-flag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-flame.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-flash-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-flash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-flashlight.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-flask.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-flower.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-folder-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-folder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-football.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-funnel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-gift.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-git-branch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-git-commit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-git-compare.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-git-merge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-git-network.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-git-pull-request.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-glasses.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-grid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-hammer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-hand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-happy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-headset.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-heart-dislike.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-heart-empty.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-heart-half.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-heart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-help-buoy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-help-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-help-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-help.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-hourglass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-ice-cream.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-images.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-infinite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-information-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-information-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-information.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-jet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-journal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-key.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-keypad.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-laptop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-leaf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-list-box.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-locate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-log-in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-log-out.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-magnet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-mail-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-mail-unread.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-male.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-man.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-medal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-medical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-medkit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-megaphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-mic-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-mic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-microphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-moon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-more.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-move.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-musical-note.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-musical-notes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-navigate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-notifications-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-notifications-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-notifications.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-nuclear.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-nutrition.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-options.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-outlet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-paper-plane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-paper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-partly-sunny.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-pause.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-paw.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-people.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-person-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-person.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-phone-landscape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-phone-portrait.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-photos.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-pie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-pin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-pint.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-pizza.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-planet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-play-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-podium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-power.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-pricetag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-pricetags.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-print.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-pulse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-qr-scanner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-quote.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-radio-button-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-radio-button-on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-radio.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-rainy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-recording.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-redo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-refresh-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-refresh.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-remove-circle-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-remove-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-remove.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-reorder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-repeat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-resize.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-restaurant.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-return-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-return-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-reverse-camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-rewind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-ribbon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-rocket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-rose.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-sad.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-school.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-send.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-settings.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-share-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-share.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-shirt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-shuffle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-skip-backward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-skip-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-speedometer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-square-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-star-half.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-star-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-stats.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-stopwatch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-subway.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-sunny.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-swap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-switch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-sync.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-tablet-landscape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-tablet-portrait.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-tennisball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-text.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-thermometer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-thumbs-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-thumbs-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-thunderstorm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-time.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-timer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-today.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-train.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-transgender.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-trash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-trending-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-trending-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-trophy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-tv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-umbrella.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-undo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-unlock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-videocam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-volume-high.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-volume-low.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-volume-mute.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-volume-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-walk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-wallet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-warning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-watch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-water.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-wifi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-wine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/svg/md-woman.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/swipe-back-35ad8e37-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/swipe-back-35ad8e37-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/swipe-back-35ad8e37-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/swipe-back-35ad8e37-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/swiper-bundle-ccdaac54-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/swiper-bundle-ccdaac54-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/swiper-bundle-ccdaac54-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/swiper-bundle-ccdaac54-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/tap-click-ca00ce7f-js-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/tap-click-ca00ce7f-js-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/tap-click-ca00ce7f-js-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/tap-click-ca00ce7f-js-es5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor-es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor-es2015.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor-es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor-es5.js.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,131 +1272,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/mess-modal/mess-modal.page.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/message/message.page.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1819">
-              <caret line="115" column="12" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/main/main.page.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/main/main.page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="24" selection-start-line="24" selection-end-line="68" selection-end-column="10" />
-              <folding>
-                <element signature="n#ion-card#0;n#div#0;n#ion-content#0;n#!!top" />
-                <element signature="n#div#1;n#ion-content#0;n#!!top" />
-                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#2;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#2;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#2;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#2;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#3;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#3;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#3;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#3;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#4;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#4;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#4;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#4;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#5;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#5;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#5;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#5;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/main/main.page.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/mess-modal/mess-modal.page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/message/message.page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="33" column="67" lean-forward="true" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
-              <folding>
-                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -172,7 +1302,6 @@
         <option value="$PROJECT_DIR$/src/app/login/register/register.page.scss" />
         <option value="$PROJECT_DIR$/src/app/profile/profile.page.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/app/gallery/gallery.page.scss" />
         <option value="$PROJECT_DIR$/src/app/gallery/gallery.page.ts" />
         <option value="$PROJECT_DIR$/src/app/gallery/gallery.page.html" />
         <option value="$PROJECT_DIR$/config.xml" />
@@ -181,7 +1310,6 @@
         <option value="$PROJECT_DIR$/src/app/home/home.router.module.ts" />
         <option value="$PROJECT_DIR$/src/app/emoji.ts" />
         <option value="$PROJECT_DIR$/src/providers/emoji-provider.ts" />
-        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/app/message/message.module.ts" />
         <option value="$PROJECT_DIR$/src/app/mess-modal/mess-modal.module.ts" />
         <option value="$PROJECT_DIR$/src/app/profile/profile.page.ts" />
@@ -190,10 +1318,12 @@
         <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/mess-modal/mess-modal.page.ts" />
         <option value="$PROJECT_DIR$/src/app/message/message.page.ts" />
-        <option value="$PROJECT_DIR$/src/app/main/main.page.scss" />
         <option value="$PROJECT_DIR$/src/app/main/main.page.ts" />
-        <option value="$PROJECT_DIR$/src/app/main/main.page.html" />
         <option value="$PROJECT_DIR$/src/app/message/message.page.html" />
+        <option value="$PROJECT_DIR$/src/app/gallery/gallery.page.scss" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/main/main.page.html" />
+        <option value="$PROJECT_DIR$/src/app/main/main.page.scss" />
       </list>
     </option>
   </component>
@@ -215,45 +1345,6 @@
             <path>
               <item name="ais_ionic" type="b2602c69:ProjectViewProjectNode" />
               <item name="ais_ionic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ais_ionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ais_ionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ais_ionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ais_ionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ais_ionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ais_ionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ais_ionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ais_ionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ais_ionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ais_ionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="mess-modal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ais_ionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ais_ionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,18 +1397,17 @@
       <workItem from="1572645472945" duration="17136000" />
       <workItem from="1572712241315" duration="6554000" />
       <workItem from="1573586325352" duration="23168000" />
-      <workItem from="1573759000911" duration="588000" />
+      <workItem from="1573759000911" duration="3648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64279000" />
+    <option name="totallyTimeSpent" value="67339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19441517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19441517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -333,7 +1423,7 @@
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50052685" side_tool="true" weight="0.32917964" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49947312" visible="true" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49947312" visible="true" weight="0.32917964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -470,13 +1560,6 @@
     <entry file="file://$PROJECT_DIR$/src/app/message.pipe.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/gallery/gallery.page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/main/main.page.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -607,23 +1690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/message/message.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -651,13 +1717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/main/main.page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/mess-modal/mess-modal.page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -669,41 +1728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/main/main.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" selection-start-line="24" selection-end-line="68" selection-end-column="10" />
-          <folding>
-            <element signature="n#ion-card#0;n#div#0;n#ion-content#0;n#!!top" />
-            <element signature="n#div#1;n#ion-content#0;n#!!top" />
-            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#2;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#2;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#2;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#2;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#3;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#3;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#3;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#3;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#4;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#4;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#4;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#4;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#5;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#5;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#5;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#5;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,6 +1760,74 @@
             <element signature="n#style#0;n#ion-skeleton-text#2;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ion-skeleton-text#3;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ion-skeleton-text#4;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/gallery/gallery.page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/main/main.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="n#div#1;n#ion-content#0;n#!!top" />
+            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#0;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#1;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#2;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#2;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#2;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#2;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#3;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#3;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#3;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#3;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#4;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#4;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#4;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#4;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#5;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#5;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#5;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#5;n#div#1;n#ion-content#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/main/main.page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>

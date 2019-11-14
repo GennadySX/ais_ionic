@@ -45,15 +45,6 @@ const routes: Routes = [
                         loadChildren: () => import('../message/message.module').then( m => m.MessagePageModule)
                     }
                 ]
-            },
-            {
-                path: 'room',
-                children: [
-                    {
-                        path: '',
-                        loadChildren: () => import('../mess-modal/mess-modal.module').then( m => m.MessModalPageModule)
-                    }
-                ]
             }
         ]
     },

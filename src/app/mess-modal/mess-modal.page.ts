@@ -86,8 +86,7 @@ export class MessModalPage implements OnInit {
     }
 
     sendIt(e) {
-        console.log('sending ', this.token);
-
+        //console.log('sending ', this.token);
         axios.post('http://studentapi.myknitu.ru/sendmessage/', {
             'token': this.token,
             'userto': this.user_id,

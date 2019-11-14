@@ -57,15 +57,17 @@ ion-content {
     display: inline;
     position: fixed;
     bottom: 0;
+    height: 45px !important;
     width: 100%;
     --background: #3d4048;
     ion-textarea {
       position: relative;
       bottom: 3px;
       float: left;
-      left: 55px;
-      width: 73%;
-      --background: transparentize();
+      left: 5px;
+      height: 40px !important;
+      width: 83%;
+      --background: transparent;
       color: #fff;
     }
     ion-button {

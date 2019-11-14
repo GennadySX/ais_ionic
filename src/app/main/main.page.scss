@@ -29,13 +29,13 @@ ion-content {
         position: relative;
         left: 15px;
       }
-      .user-firstname {
-
-      }
+  
     }
     .card-image {
       img {
         width: 140px;
+        height: 107px;
+        object-fit: cover;
       }
     }
 

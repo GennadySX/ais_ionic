@@ -29,16 +29,6 @@
   </ion-grid>
 
   <ion-card class="mess-toolbar">
-    <ion-button class="emoji-btn"
-                (click)="toggled = !toggled"
-                [(emojiPickerIf)]="toggled"
-                [emojiPickerDirection]="'right' "
-                (emojiPickerSelect)="handleSelection($event)"
-
-
-    >
-      <ion-icon name="happy"></ion-icon>
-    </ion-button>
     <ion-textarea [(ngModel)]="message" rows="1"  autoGrow="true" placeholder="Сообщение..."></ion-textarea>
     <ion-button class="send-btn" (click)="sendIt($event)">
       <ion-icon name="send" ></ion-icon>
