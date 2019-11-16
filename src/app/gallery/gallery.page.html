@@ -1,6 +1,9 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>{{titlePage}}</ion-title>
+      <div class="head_panel">
+          <ion-title>{{titlePage}}</ion-title>
+          <button (click)="selectImage()"> <ion-icon name="add-circle"></ion-icon></button>
+      </div>
   </ion-toolbar>
 </ion-header>
 
@@ -11,3 +14,4 @@
       </div>
   </div>
 </ion-content>
+

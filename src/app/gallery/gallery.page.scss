@@ -1,6 +1,28 @@
 
 ion-header {
+  .head_panel {
+    display: flex;
+    button {
+      background: transparent;
+      color: #35ff99;
+      box-shadow: 0px 0px 10px #35ff99;
+      --background: transparent;
+      margin-right: 10px;
+      font-size: 2.7rem;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      outline: none;
+      ion-icon {
+        position: relative;
+        outline: none;
+        transform: translate(-23%, -10%);
+      }
+    }
+  }
   ion-toolbar {
+    display: flex;
+    justify-content: space-around;
     --background: #1f2229;
     color: #fcfaff;
     box-shadow: #172029 0 0 15px;
