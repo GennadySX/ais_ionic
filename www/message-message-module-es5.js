@@ -193,7 +193,7 @@ var MessagePage = /** @class */ (function () {
                     user = userlist_1[_i];
                     _loop_1(user);
                 }
-                this.userList = userdata;
+                this.userList = userdata.reverse();
                 return [2 /*return*/];
             });
         });

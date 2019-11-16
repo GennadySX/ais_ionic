@@ -58,7 +58,7 @@ export class GalleryPage implements OnInit {
     getGellery() {
         axios.get('http://studentapi.myknitu.ru').then(res => {
             if (res.data && res.data.images) {
-                this.images = res.data.images;
+                this.images = res.data.images.reverse();
             }
         });
     }

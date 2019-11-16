@@ -168,7 +168,7 @@ let MessagePage = class MessagePage {
                     }
                 });
             }
-            this.userList = userdata;
+            this.userList = userdata.reverse();
         });
     }
     getToken() {

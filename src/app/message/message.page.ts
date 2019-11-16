@@ -95,7 +95,7 @@ export class MessagePage implements OnInit {
                 }
             });
         }
-        this.userList = userdata;
+        this.userList = userdata.reverse();
     }
 
     getToken() {

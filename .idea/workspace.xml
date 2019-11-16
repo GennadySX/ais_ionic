@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3e2758-a86f-48a1-96ee-11abac268c10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/gallery-gallery-module-es2015.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/gallery-gallery-module-es2015.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/gallery-gallery-module-es2015.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/gallery-gallery-module-es2015.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/gallery-gallery-module-es5.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/gallery-gallery-module-es5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/gallery-gallery-module-es5.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/gallery-gallery-module-es5.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-es2015.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-es2015.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-es2015.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-es2015.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-es5.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-es5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-es5.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/main-es5.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/gallery/gallery.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/gallery/gallery.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/gallery/gallery.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/gallery/gallery.page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/gallery/gallery.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/gallery/gallery.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/message/message.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/message/message.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/gallery-gallery-module-es2015.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/gallery-gallery-module-es2015.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/gallery-gallery-module-es2015.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/gallery-gallery-module-es2015.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/gallery-gallery-module-es5.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/gallery-gallery-module-es5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/gallery-gallery-module-es5.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/gallery-gallery-module-es5.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-es2015.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/main-es2015.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-es2015.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/main-es2015.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-es5.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/main-es5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/main-es5.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/main-es5.js.map" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -42,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/profile/profile.page.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="722">
-              <caret line="278" column="5" lean-forward="true" selection-start-line="268" selection-end-line="278" selection-end-column="5" />
+              <caret line="278" column="5" selection-start-line="268" selection-end-line="278" selection-end-column="5" />
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
                 <element signature="n#!!block;n#selectImage#0;n#ProfilePage#0" />
@@ -53,13 +69,81 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/gallery/gallery.page.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="146" column="30" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
+            <state relative-caret-position="297">
+              <caret line="60" column="55" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="55" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/message/message.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/message/message.page.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="671">
+              <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/message/message.page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding>
+                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#0;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#2;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#3;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ion-skeleton-text#4;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,7 +153,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/gallery/gallery.page.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -113,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/app/mess-modal/mess-modal.page.scss" />
         <option value="$PROJECT_DIR$/src/app/mess-modal/mess-modal.page.html" />
         <option value="$PROJECT_DIR$/src/app/mess-modal/mess-modal.page.ts" />
-        <option value="$PROJECT_DIR$/src/app/message/message.page.ts" />
         <option value="$PROJECT_DIR$/src/app/main/main.page.ts" />
         <option value="$PROJECT_DIR$/src/app/message/message.page.html" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
@@ -122,10 +205,11 @@
         <option value="$PROJECT_DIR$/src/app/home/home.page.html" />
         <option value="$PROJECT_DIR$/src/app/profile/profile.page.ts" />
         <option value="$PROJECT_DIR$/src/app/profile/profile.page.html" />
-        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/gallery/gallery.page.scss" />
         <option value="$PROJECT_DIR$/src/app/gallery/gallery.page.html" />
         <option value="$PROJECT_DIR$/src/app/gallery/gallery.page.ts" />
+        <option value="$PROJECT_DIR$/src/app/message/message.page.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
       </list>
     </option>
   </component>
@@ -172,6 +256,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ais_ionic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ais_ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ais_ionic" type="b2602c69:ProjectViewProjectNode" />
@@ -233,12 +324,12 @@
       <workItem from="1573586325352" duration="23168000" />
       <workItem from="1573759000911" duration="3648000" />
       <workItem from="1573766548992" duration="1054000" />
-      <workItem from="1573864012913" duration="4609000" />
+      <workItem from="1573864012913" duration="5956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73002000" />
+    <option name="totallyTimeSpent" value="74349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -260,7 +351,7 @@
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50052685" side_tool="true" weight="0.32917964" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49947312" weight="0.32917964" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49947312" weight="0.32837301" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -477,27 +568,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/message/message.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/mess-modal/mess-modal.page.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1734">
           <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/message/message.page.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="115" column="12" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
@@ -515,39 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/message/message.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" column="67" lean-forward="true" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -612,16 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/profile/profile.page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -632,7 +663,7 @@
     <entry file="file://$PROJECT_DIR$/src/app/gallery/gallery.page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -653,7 +684,7 @@
     <entry file="file://$PROJECT_DIR$/src/app/profile/profile.page.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
-          <caret line="278" column="5" lean-forward="true" selection-start-line="268" selection-end-line="278" selection-end-column="5" />
+          <caret line="278" column="5" selection-start-line="268" selection-end-line="278" selection-end-column="5" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
             <element signature="n#!!block;n#selectImage#0;n#ProfilePage#0" />
@@ -665,10 +696,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/gallery/gallery.page.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="146" column="30" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
+        <state relative-caret-position="297">
+          <caret line="60" column="55" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="55" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/message/message.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/message/message.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/message/message.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#0;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#1;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#2;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#3;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#4;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#0;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#2;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#3;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-skeleton-text#4;n#div#5;n#div#0;n#ion-content#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>

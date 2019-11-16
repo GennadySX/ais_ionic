@@ -1,49 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["gallery-gallery-module"],{
 
-/***/ "./node_modules/@ionic-native/photo-viewer/index.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/@ionic-native/photo-viewer/index.js ***!
-  \**********************************************************/
-/*! exports provided: PhotoViewer */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PhotoViewer", function() { return PhotoViewer; });
-/* harmony import */ var _ionic_native_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ionic-native/core */ "./node_modules/@ionic-native/core/index.js");
-var __extends = (undefined && undefined.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-var PhotoViewerOriginal = /** @class */ (function (_super) {
-    __extends(PhotoViewerOriginal, _super);
-    function PhotoViewerOriginal() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    PhotoViewerOriginal.prototype.show = function (url, title, options) { return Object(_ionic_native_core__WEBPACK_IMPORTED_MODULE_0__["cordova"])(this, "show", { "sync": true }, arguments); };
-    PhotoViewerOriginal.pluginName = "PhotoViewer";
-    PhotoViewerOriginal.plugin = "com-sarriaroman-photoviewer";
-    PhotoViewerOriginal.pluginRef = "PhotoViewer";
-    PhotoViewerOriginal.repo = "https://github.com/sarriaroman/photoviewer";
-    PhotoViewerOriginal.platforms = ["Android", "iOS"];
-    return PhotoViewerOriginal;
-}(_ionic_native_core__WEBPACK_IMPORTED_MODULE_0__["IonicNativePlugin"]));
-var PhotoViewer = new PhotoViewerOriginal();
-
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9zcmMvQGlvbmljLW5hdGl2ZS9wbHVnaW5zL3Bob3RvLXZpZXdlci9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7O0FBQ0EsT0FBTyw4QkFBc0MsTUFBTSxvQkFBb0IsQ0FBQzs7SUF3RHZDLCtCQUFpQjs7OztJQVFoRCwwQkFBSSxhQUFDLEdBQVcsRUFBRSxLQUFjLEVBQUUsT0FBNEI7Ozs7OztzQkFqRWhFO0VBeURpQyxpQkFBaUI7U0FBckMsV0FBVyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEluamVjdGFibGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IENvcmRvdmEsIElvbmljTmF0aXZlUGx1Z2luLCBQbHVnaW4gfSBmcm9tICdAaW9uaWMtbmF0aXZlL2NvcmUnO1xuXG5leHBvcnQgaW50ZXJmYWNlIFBob3RvVmlld2VyT3B0aW9ucyB7XG4gIC8qKlxuICAgKiBTZXQgdG8gZmFsc2UgdG8gZGlzYWJsZSB0aGUgc2hhcmUgYnV0dG9uIChBbmRyb2lkIG9ubHkpLiBEZWZhdWx0OiB0cnVlXG4gICAqL1xuICBzaGFyZT86IGJvb2xlYW47XG4gIC8qKlxuICAgKiBBZGQgSFRUUCBoZWFkZXJzIHRvIHRoZSByZXF1ZXN0LiAgVXNlZnVsIGZvciBhdXRoZW50aWNhdGVkIHBhZ2VzLlxuICAgKiBUaGUgdmFsdWUgaXMgYSBzdHJpbmcgaW4gYSBKU09OIGZvcm1hdC4gIERlZmF1bHQ6ICcnXG4gICAqL1xuICBoZWFkZXJzPzogc3RyaW5nO1xuICAvKipcbiAgICogT3B0aW9uIGZvciBjbG9zZSBidXR0b24gdmlzaWJpbGl0eSB3aGVuIHNoYXJlIGZhbHNlIFtPTkxZIEZPUiBpT1NdXG4gICAqL1xuICBjbG9zZUJ1dHRvbj86IGJvb2xlYW47XG4gIC8qKlxuICAgKiBJZiB5b3UgbmVlZCB0byBjb3B5IGltYWdlIHRvIHJlZmVyZW5jZSBiZWZvcmUgc2hvdyB0aGVuIHNldCBpdCB0cnVlIFtPTkxZIEZPUiBpT1NdXG4gICAqL1xuICBjb3B5VG9SZWZlcmVuY2U/OiBib29sZWFuO1xuICAvKipcbiAgICogRW5hYmxlIG9yIERpc2FibGUgUGljYXNzbyBPcHRpb25zICggT25seSBBbmRyb2lkICk6IGZpdCwgY2VudGVySW5zaWRlLCBjZW50ZXJDcm9wLlxuICAgKi9cbiAgcGljY2Fzb09wdGlvbnM/OiB7XG4gICAgZml0PzogYm9vbGVhbjtcbiAgICBjZW50ZXJJbnNpZGU/OiBib29sZWFuO1xuICAgIGNlbnRlckNyb3A/OiBib29sZWFuO1xuICB9O1xufVxuXG4vKipcbiAqIEBuYW1lIFBob3RvIFZpZXdlclxuICogQGRlc2NyaXB0aW9uIFRoaXMgcGx1Z2luIGNhbiBkaXNwbGF5IHlvdXIgaW1hZ2UgaW4gZnVsbCBzY3JlZW4gd2l0aCB0aGUgYWJpbGl0eSB0byBwYW4sIHpvb20sIGFuZCBzaGFyZSB0aGUgaW1hZ2UuXG4gKiBAdXNhZ2VcbiAqIGBgYHR5cGVzY3JpcHRcbiAqIGltcG9ydCB7IFBob3RvVmlld2VyIH0gZnJvbSAnQGlvbmljLW5hdGl2ZS9waG90by12aWV3ZXIvbmd4JztcbiAqXG4gKiBjb25zdHJ1Y3Rvcihwcml2YXRlIHBob3RvVmlld2VyOiBQaG90b1ZpZXdlcikgeyB9XG4gKlxuICogLi4uXG4gKlxuICogdGhpcy5waG90b1ZpZXdlci5zaG93KCdodHRwczovL215c2l0ZS5jb20vcGF0aC90by9pbWFnZS5qcGcnKTtcbiAqXG4gKiB0aGlzLnBob3RvVmlld2VyLnNob3coJ2h0dHBzOi8vbXlzaXRlLmNvbS9wYXRoL3RvL2ltYWdlLmpwZycsICdNeSBpbWFnZSB0aXRsZScsIHtzaGFyZTogZmFsc2V9KTtcbiAqXG4gKiB0aGlzLnBob3RvVmlld2VyLnNob3coJ2h0dHBzOi8vbXlzZWN1cmVzaXRlLmNvbS9wYXRoL3RvL2ltYWdlLmpwZycsICdNeSBpbWFnZSB0aXRsZScsIHtzaGFyZTogZmFsc2UsIGhlYWRlcnM6ICd7dXNlcm5hbWU6Zm9vLHBhc3N3b3JkOmJhcn0nfSk7XG4gKiBgYGBcbiAqL1xuQFBsdWdpbih7XG4gIHBsdWdpbk5hbWU6ICdQaG90b1ZpZXdlcicsXG4gIHBsdWdpbjogJ2NvbS1zYXJyaWFyb21hbi1waG90b3ZpZXdlcicsXG4gIHBsdWdpblJlZjogJ1Bob3RvVmlld2VyJyxcbiAgcmVwbzogJ2h0dHBzOi8vZ2l0aHViLmNvbS9zYXJyaWFyb21hbi9waG90b3ZpZXdlcicsXG4gIHBsYXRmb3JtczogWydBbmRyb2lkJywgJ2lPUyddXG59KVxuQEluamVjdGFibGUoKVxuZXhwb3J0IGNsYXNzIFBob3RvVmlld2VyIGV4dGVuZHMgSW9uaWNOYXRpdmVQbHVnaW4ge1xuICAvKipcbiAgICogU2hvd3MgYW4gaW1hZ2UgaW4gZnVsbCBzY3JlZW5cbiAgICogQHBhcmFtIHVybCB7c3RyaW5nfSBVUkwgb3IgcGF0aCB0byBpbWFnZVxuICAgKiBAcGFyYW0gdGl0bGUge3N0cmluZ31cbiAgICogQHBhcmFtIG9wdGlvbnMge1Bob3RvVmlld2VyT3B0aW9uc31cbiAgICovXG4gIEBDb3Jkb3ZhKHsgc3luYzogdHJ1ZSB9KVxuICBzaG93KHVybDogc3RyaW5nLCB0aXRsZT86IHN0cmluZywgb3B0aW9ucz86IFBob3RvVmlld2VyT3B0aW9ucyk6IHZvaWQge31cbn1cbiJdfQ==
-
-/***/ }),
-
 /***/ "./node_modules/raw-loader/index.js!./src/app/gallery/gallery.page.html":
 /*!*********************************************************************!*\
   !*** ./node_modules/raw-loader!./src/app/gallery/gallery.page.html ***!
@@ -51,7 +7,7 @@ var PhotoViewer = new PhotoViewerOriginal();
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>{{titlePage}}</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n  <div *ngIf=\"images\">\n      <div class=\"card-image\">\n        <img [src]=\"image.img\"  alt=\"\" *ngFor=\"let image of images; let index\"   >\n      </div>\n  </div>\n</ion-content>\n"
+module.exports = "<ion-header>\n  <ion-toolbar>\n      <div class=\"head_panel\">\n          <ion-title>{{titlePage}}</ion-title>\n          <button (click)=\"selectImage()\"> <ion-icon name=\"add-circle\"></ion-icon></button>\n      </div>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n  <div *ngIf=\"images\">\n      <div class=\"card-image\">\n        <img [src]=\"image.img\"  alt=\"\" *ngFor=\"let image of images; let index\"   >\n      </div>\n  </div>\n</ion-content>\n\n"
 
 /***/ }),
 
@@ -113,7 +69,7 @@ var GalleryPageModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "ion-header ion-toolbar {\n  --background: #1f2229;\n  color: #fcfaff;\n  box-shadow: #172029 0 0 15px;\n}\n\nion-content {\n  --background: #292d34;\n}\n\nion-content .card-image {\n  padding: 10px;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n  flex-wrap: wrap;\n}\n\nion-content .card-image img {\n  width: 45vw;\n  height: 45vw;\n  box-shadow: #0c1721 1px 1px 15px;\n  margin-top: 10px;\n  border-radius: 3px;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2FsbGVyeS9DOlxcVXNlcnNcXGh0Y3VjXFxlZHVQcm9qZWN0c1xcaW9uaWNcXGFpc19pb25pYy9zcmNcXGFwcFxcZ2FsbGVyeVxcZ2FsbGVyeS5wYWdlLnNjc3MiLCJzcmMvYXBwL2dhbGxlcnkvZ2FsbGVyeS5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUU7RUFDRSxxQkFBQTtFQUNBLGNBQUE7RUFDQSw0QkFBQTtBQ0RKOztBREtBO0VBRUUscUJBQUE7QUNIRjs7QURLRTtFQUNFLGFBQUE7RUFDQSxvQkFBQTtFQUFBLGFBQUE7RUFDQSx5QkFBQTtVQUFBLDhCQUFBO0VBQ0EsZUFBQTtBQ0hKOztBRElJO0VBQ0UsV0FBQTtFQUNBLFlBQUE7RUFDQSxnQ0FBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxvQkFBQTtLQUFBLGlCQUFBO0FDRk4iLCJmaWxlIjoic3JjL2FwcC9nYWxsZXJ5L2dhbGxlcnkucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG5pb24taGVhZGVyIHtcbiAgaW9uLXRvb2xiYXIge1xuICAgIC0tYmFja2dyb3VuZDogIzFmMjIyOTtcbiAgICBjb2xvcjogI2ZjZmFmZjtcbiAgICBib3gtc2hhZG93OiAjMTcyMDI5IDAgMCAxNXB4O1xuICB9XG59XG5cbmlvbi1jb250ZW50IHtcbiAgLy8tLWJhY2tncm91bmQ6IHVybCgnLi4vLi4vYXNzZXRzL2xvZ19ia2cuanBnJykgMCAwLzEwMCUgMTAwJSBuby1yZXBlYXQ7XG4gIC0tYmFja2dyb3VuZDogIzI5MmQzNDtcblxuICAuY2FyZC1pbWFnZSB7XG4gICAgcGFkZGluZzogMTBweDtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgICBmbGV4LXdyYXA6IHdyYXA7XG4gICAgaW1nIHtcbiAgICAgIHdpZHRoOiA0NXZ3O1xuICAgICAgaGVpZ2h0OiA0NXZ3O1xuICAgICAgYm94LXNoYWRvdzogIzBjMTcyMSAxcHggMXB4IDE1cHg7XG4gICAgICBtYXJnaW4tdG9wOiAxMHB4O1xuICAgICAgYm9yZGVyLXJhZGl1czogM3B4O1xuICAgICAgb2JqZWN0LWZpdDogY292ZXI7XG4gICAgfVxuICAgIC8vYm94LXNoYWRvdzogIzNkNDA0OCAwIDVweCAxMHB4O1xuXG4gIH1cblxufVxuXG5cbiIsImlvbi1oZWFkZXIgaW9uLXRvb2xiYXIge1xuICAtLWJhY2tncm91bmQ6ICMxZjIyMjk7XG4gIGNvbG9yOiAjZmNmYWZmO1xuICBib3gtc2hhZG93OiAjMTcyMDI5IDAgMCAxNXB4O1xufVxuXG5pb24tY29udGVudCB7XG4gIC0tYmFja2dyb3VuZDogIzI5MmQzNDtcbn1cbmlvbi1jb250ZW50IC5jYXJkLWltYWdlIHtcbiAgcGFkZGluZzogMTBweDtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICBmbGV4LXdyYXA6IHdyYXA7XG59XG5pb24tY29udGVudCAuY2FyZC1pbWFnZSBpbWcge1xuICB3aWR0aDogNDV2dztcbiAgaGVpZ2h0OiA0NXZ3O1xuICBib3gtc2hhZG93OiAjMGMxNzIxIDFweCAxcHggMTVweDtcbiAgbWFyZ2luLXRvcDogMTBweDtcbiAgYm9yZGVyLXJhZGl1czogM3B4O1xuICBvYmplY3QtZml0OiBjb3Zlcjtcbn0iXX0= */"
+module.exports = "ion-header .head_panel {\n  display: -webkit-box;\n  display: flex;\n}\nion-header .head_panel button {\n  background: transparent;\n  color: #35ff99;\n  box-shadow: 0px 0px 10px #35ff99;\n  --background: transparent;\n  margin-right: 10px;\n  font-size: 2.7rem;\n  width: 35px;\n  height: 35px;\n  border-radius: 50%;\n  outline: none;\n}\nion-header .head_panel button ion-icon {\n  position: relative;\n  outline: none;\n  -webkit-transform: translate(-23%, -10%);\n          transform: translate(-23%, -10%);\n}\nion-header ion-toolbar {\n  display: -webkit-box;\n  display: flex;\n  justify-content: space-around;\n  --background: #1f2229;\n  color: #fcfaff;\n  box-shadow: #172029 0 0 15px;\n}\nion-content {\n  --background: #292d34;\n}\nion-content .card-image {\n  padding: 10px;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n  flex-wrap: wrap;\n}\nion-content .card-image img {\n  width: 45vw;\n  height: 45vw;\n  box-shadow: #0c1721 1px 1px 15px;\n  margin-top: 10px;\n  border-radius: 3px;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2FsbGVyeS9DOlxcVXNlcnNcXGh0Y3VjXFxlZHVQcm9qZWN0c1xcaW9uaWNcXGFpc19pb25pYy9zcmNcXGFwcFxcZ2FsbGVyeVxcZ2FsbGVyeS5wYWdlLnNjc3MiLCJzcmMvYXBwL2dhbGxlcnkvZ2FsbGVyeS5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUU7RUFDRSxvQkFBQTtFQUFBLGFBQUE7QUNESjtBREVJO0VBQ0UsdUJBQUE7RUFDQSxjQUFBO0VBQ0EsZ0NBQUE7RUFDQSx5QkFBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsYUFBQTtBQ0FOO0FEQ007RUFDRSxrQkFBQTtFQUNBLGFBQUE7RUFDQSx3Q0FBQTtVQUFBLGdDQUFBO0FDQ1I7QURHRTtFQUNFLG9CQUFBO0VBQUEsYUFBQTtFQUNBLDZCQUFBO0VBQ0EscUJBQUE7RUFDQSxjQUFBO0VBQ0EsNEJBQUE7QUNESjtBREtBO0VBRUUscUJBQUE7QUNIRjtBREtFO0VBQ0UsYUFBQTtFQUNBLG9CQUFBO0VBQUEsYUFBQTtFQUNBLHlCQUFBO1VBQUEsOEJBQUE7RUFDQSxlQUFBO0FDSEo7QURJSTtFQUNFLFdBQUE7RUFDQSxZQUFBO0VBQ0EsZ0NBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0Esb0JBQUE7S0FBQSxpQkFBQTtBQ0ZOIiwiZmlsZSI6InNyYy9hcHAvZ2FsbGVyeS9nYWxsZXJ5LnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuaW9uLWhlYWRlciB7XG4gIC5oZWFkX3BhbmVsIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGJ1dHRvbiB7XG4gICAgICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDtcbiAgICAgIGNvbG9yOiAjMzVmZjk5O1xuICAgICAgYm94LXNoYWRvdzogMHB4IDBweCAxMHB4ICMzNWZmOTk7XG4gICAgICAtLWJhY2tncm91bmQ6IHRyYW5zcGFyZW50O1xuICAgICAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xuICAgICAgZm9udC1zaXplOiAyLjdyZW07XG4gICAgICB3aWR0aDogMzVweDtcbiAgICAgIGhlaWdodDogMzVweDtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgICAgIG91dGxpbmU6IG5vbmU7XG4gICAgICBpb24taWNvbiB7XG4gICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgb3V0bGluZTogbm9uZTtcbiAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTIzJSwgLTEwJSk7XG4gICAgICB9XG4gICAgfVxuICB9XG4gIGlvbi10b29sYmFyIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xuICAgIC0tYmFja2dyb3VuZDogIzFmMjIyOTtcbiAgICBjb2xvcjogI2ZjZmFmZjtcbiAgICBib3gtc2hhZG93OiAjMTcyMDI5IDAgMCAxNXB4O1xuICB9XG59XG5cbmlvbi1jb250ZW50IHtcbiAgLy8tLWJhY2tncm91bmQ6IHVybCgnLi4vLi4vYXNzZXRzL2xvZ19ia2cuanBnJykgMCAwLzEwMCUgMTAwJSBuby1yZXBlYXQ7XG4gIC0tYmFja2dyb3VuZDogIzI5MmQzNDtcblxuICAuY2FyZC1pbWFnZSB7XG4gICAgcGFkZGluZzogMTBweDtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgICBmbGV4LXdyYXA6IHdyYXA7XG4gICAgaW1nIHtcbiAgICAgIHdpZHRoOiA0NXZ3O1xuICAgICAgaGVpZ2h0OiA0NXZ3O1xuICAgICAgYm94LXNoYWRvdzogIzBjMTcyMSAxcHggMXB4IDE1cHg7XG4gICAgICBtYXJnaW4tdG9wOiAxMHB4O1xuICAgICAgYm9yZGVyLXJhZGl1czogM3B4O1xuICAgICAgb2JqZWN0LWZpdDogY292ZXI7XG4gICAgfVxuICAgIC8vYm94LXNoYWRvdzogIzNkNDA0OCAwIDVweCAxMHB4O1xuXG4gIH1cblxufVxuXG5cbiIsImlvbi1oZWFkZXIgLmhlYWRfcGFuZWwge1xuICBkaXNwbGF5OiBmbGV4O1xufVxuaW9uLWhlYWRlciAuaGVhZF9wYW5lbCBidXR0b24ge1xuICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDtcbiAgY29sb3I6ICMzNWZmOTk7XG4gIGJveC1zaGFkb3c6IDBweCAwcHggMTBweCAjMzVmZjk5O1xuICAtLWJhY2tncm91bmQ6IHRyYW5zcGFyZW50O1xuICBtYXJnaW4tcmlnaHQ6IDEwcHg7XG4gIGZvbnQtc2l6ZTogMi43cmVtO1xuICB3aWR0aDogMzVweDtcbiAgaGVpZ2h0OiAzNXB4O1xuICBib3JkZXItcmFkaXVzOiA1MCU7XG4gIG91dGxpbmU6IG5vbmU7XG59XG5pb24taGVhZGVyIC5oZWFkX3BhbmVsIGJ1dHRvbiBpb24taWNvbiB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgb3V0bGluZTogbm9uZTtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTIzJSwgLTEwJSk7XG59XG5pb24taGVhZGVyIGlvbi10b29sYmFyIHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1hcm91bmQ7XG4gIC0tYmFja2dyb3VuZDogIzFmMjIyOTtcbiAgY29sb3I6ICNmY2ZhZmY7XG4gIGJveC1zaGFkb3c6ICMxNzIwMjkgMCAwIDE1cHg7XG59XG5cbmlvbi1jb250ZW50IHtcbiAgLS1iYWNrZ3JvdW5kOiAjMjkyZDM0O1xufVxuaW9uLWNvbnRlbnQgLmNhcmQtaW1hZ2Uge1xuICBwYWRkaW5nOiAxMHB4O1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG4gIGZsZXgtd3JhcDogd3JhcDtcbn1cbmlvbi1jb250ZW50IC5jYXJkLWltYWdlIGltZyB7XG4gIHdpZHRoOiA0NXZ3O1xuICBoZWlnaHQ6IDQ1dnc7XG4gIGJveC1zaGFkb3c6ICMwYzE3MjEgMXB4IDFweCAxNXB4O1xuICBtYXJnaW4tdG9wOiAxMHB4O1xuICBib3JkZXItcmFkaXVzOiAzcHg7XG4gIG9iamVjdC1maXQ6IGNvdmVyO1xufSJdfQ== */"
 
 /***/ }),
 
@@ -129,38 +85,235 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GalleryPage", function() { return GalleryPage; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _ionic_native_photo_viewer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic-native/photo-viewer */ "./node_modules/@ionic-native/photo-viewer/index.js");
+/* harmony import */ var _api_auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../api/auth.service */ "./src/app/api/auth.service.ts");
+/* harmony import */ var _api_auth_guard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../api/auth.guard */ "./src/app/api/auth.guard.ts");
+/* harmony import */ var _ionic_storage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ionic/storage */ "./node_modules/@ionic/storage/fesm5/ionic-storage.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var _ionic_native_Camera_ngx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ionic-native/Camera/ngx */ "./node_modules/@ionic-native/Camera/ngx/index.js");
+/* harmony import */ var _ionic_native_File_ngx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ionic-native/File/ngx */ "./node_modules/@ionic-native/File/ngx/index.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _ionic_native_ionic_webview_ngx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @ionic-native/ionic-webview/ngx */ "./node_modules/@ionic-native/ionic-webview/ngx/index.js");
+/* harmony import */ var _ionic_native_file_path_ngx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @ionic-native/file-path/ngx */ "./node_modules/@ionic-native/file-path/ngx/index.js");
+/* harmony import */ var _ionic_native_crop_ngx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @ionic-native/crop/ngx */ "./node_modules/@ionic-native/crop/ngx/index.js");
+/* harmony import */ var _ionic_native_image_picker_ngx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @ionic-native/image-picker/ngx */ "./node_modules/@ionic-native/image-picker/ngx/index.js");
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 var GalleryPage = /** @class */ (function () {
-    function GalleryPage() {
+    function GalleryPage(authGuard, authService, storage, alertController, camera, file, http, webview, actionSheetController, toastController, plt, loadingController, ref, filePath, crop, imagePicker) {
+        this.authGuard = authGuard;
+        this.authService = authService;
+        this.storage = storage;
+        this.alertController = alertController;
+        this.camera = camera;
+        this.file = file;
+        this.http = http;
+        this.webview = webview;
+        this.actionSheetController = actionSheetController;
+        this.toastController = toastController;
+        this.plt = plt;
+        this.loadingController = loadingController;
+        this.ref = ref;
+        this.filePath = filePath;
+        this.crop = crop;
+        this.imagePicker = imagePicker;
         this.titlePage = 'Галерея';
+        this.img = '';
+        this.imgData = '';
+        this.fileImage = '';
     }
     GalleryPage.prototype.ngOnInit = function () {
         this.getGellery();
     };
     GalleryPage.prototype.getGellery = function () {
         var _this = this;
-        axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('http://studentapi.myknitu.ru').then(function (res) {
+        axios__WEBPACK_IMPORTED_MODULE_5___default.a.get('http://studentapi.myknitu.ru').then(function (res) {
             if (res.data && res.data.images) {
-                _this.images = res.data.images;
+                _this.images = res.data.images.reverse();
             }
         });
     };
-    GalleryPage.prototype.viwer = function () {
-        _ionic_native_photo_viewer__WEBPACK_IMPORTED_MODULE_3__["PhotoViewer"].show('http://studentapi.myknitu.ru/media/Images/1542720020201.jpg', 'Optional Title');
+    GalleryPage.prototype.selectImage = function () {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function () {
+            var actionSheet;
+            var _this = this;
+            return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, this.actionSheetController.create({
+                            header: 'Выберите способ загрузки',
+                            buttons: [{
+                                    text: 'из Галерея',
+                                    handler: function () {
+                                        _this.getPhoto(0);
+                                    }
+                                },
+                                {
+                                    text: 'Камера',
+                                    handler: function () {
+                                        _this.getFromCamera();
+                                    }
+                                },
+                                {
+                                    text: 'Отмена',
+                                    role: 'cancel'
+                                }
+                            ]
+                        })];
+                    case 1:
+                        actionSheet = _a.sent();
+                        return [4 /*yield*/, actionSheet.present()];
+                    case 2:
+                        _a.sent();
+                        return [2 /*return*/];
+                }
+            });
+        });
     };
+    GalleryPage.prototype.getFromCamera = function () {
+        var _this = this;
+        var options = {
+            quality: 100,
+            targetHeight: 300,
+            destinationType: this.camera.DestinationType.DATA_URL,
+            encodingType: this.camera.EncodingType.JPEG,
+            mediaType: this.camera.MediaType.PICTURE,
+            cameraDirection: 0,
+            correctOrientation: true,
+            allowEdit: true,
+        };
+        this.camera.getPicture(options).then(function (imageData) {
+            _this.fileImage = 'data:image/jpeg;base64,' + imageData;
+            _this.uploadImage(_this.fileImage);
+        }, function (err) {
+        });
+    };
+    GalleryPage.prototype.getPhoto = function (sourceType) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function () {
+            var options;
+            var _this = this;
+            return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_a) {
+                options = {
+                    quality: 100,
+                    targetHeight: 300,
+                    destinationType: this.camera.DestinationType.DATA_URL,
+                    encodingType: this.camera.EncodingType.JPEG,
+                    mediaType: this.camera.MediaType.PICTURE,
+                    correctOrientation: true,
+                    sourceType: sourceType,
+                    saveToPhotoAlbum: false,
+                    allowEdit: true
+                };
+                this.camera.getPicture(options).then(function (imageData) {
+                    _this.fileImage = 'data:image/jpeg;base64,' + imageData;
+                    _this.uploadImage(_this.fileImage);
+                    // now you can do whatever you want with the base64Image, I chose to update the db
+                }, function (err) {
+                    // Handle error
+                });
+                return [2 /*return*/];
+            });
+        });
+    };
+    /************************************************/
+    GalleryPage.prototype.uploadImage = function (image64) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function () {
+            var imgDat;
+            var _this = this;
+            return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        imgDat = new FormData();
+                        imgDat.append('image', image64);
+                        return [4 /*yield*/, axios__WEBPACK_IMPORTED_MODULE_5___default.a.post('http://studentapi.myknitu.ru/send2/', imgDat, {
+                                headers: {
+                                    'Content-Type': "multipart/form-data"
+                                }
+                            }).then(function (res) {
+                                _this.notAlert('Оп оп оп ', 'Ваша картинка загружена!');
+                                _this.getGellery();
+                            })];
+                    case 1:
+                        _a.sent();
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
+    GalleryPage.prototype.notAlert = function (title, mess) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function () {
+            var alert;
+            return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, this.alertController.create({
+                            header: title,
+                            subHeader: '',
+                            message: mess,
+                            buttons: ['Закрыть']
+                        })];
+                    case 1:
+                        alert = _a.sent();
+                        return [4 /*yield*/, alert.present()];
+                    case 2:
+                        _a.sent();
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
+    GalleryPage.ctorParameters = function () { return [
+        { type: _api_auth_guard__WEBPACK_IMPORTED_MODULE_3__["AuthGuard"] },
+        { type: _api_auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"] },
+        { type: _ionic_storage__WEBPACK_IMPORTED_MODULE_4__["Storage"] },
+        { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["AlertController"] },
+        { type: _ionic_native_Camera_ngx__WEBPACK_IMPORTED_MODULE_7__["Camera"] },
+        { type: _ionic_native_File_ngx__WEBPACK_IMPORTED_MODULE_8__["File"] },
+        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClient"] },
+        { type: _ionic_native_ionic_webview_ngx__WEBPACK_IMPORTED_MODULE_10__["WebView"] },
+        { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["ActionSheetController"] },
+        { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["ToastController"] },
+        { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["Platform"] },
+        { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["LoadingController"] },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"] },
+        { type: _ionic_native_file_path_ngx__WEBPACK_IMPORTED_MODULE_11__["FilePath"] },
+        { type: _ionic_native_crop_ngx__WEBPACK_IMPORTED_MODULE_12__["Crop"] },
+        { type: _ionic_native_image_picker_ngx__WEBPACK_IMPORTED_MODULE_13__["ImagePicker"] }
+    ]; };
     GalleryPage = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-gallery',
             template: __webpack_require__(/*! raw-loader!./gallery.page.html */ "./node_modules/raw-loader/index.js!./src/app/gallery/gallery.page.html"),
             styles: [__webpack_require__(/*! ./gallery.page.scss */ "./src/app/gallery/gallery.page.scss")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_api_auth_guard__WEBPACK_IMPORTED_MODULE_3__["AuthGuard"],
+            _api_auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"],
+            _ionic_storage__WEBPACK_IMPORTED_MODULE_4__["Storage"],
+            _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["AlertController"],
+            _ionic_native_Camera_ngx__WEBPACK_IMPORTED_MODULE_7__["Camera"],
+            _ionic_native_File_ngx__WEBPACK_IMPORTED_MODULE_8__["File"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClient"],
+            _ionic_native_ionic_webview_ngx__WEBPACK_IMPORTED_MODULE_10__["WebView"],
+            _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["ActionSheetController"],
+            _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["ToastController"],
+            _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["Platform"],
+            _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["LoadingController"],
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"],
+            _ionic_native_file_path_ngx__WEBPACK_IMPORTED_MODULE_11__["FilePath"],
+            _ionic_native_crop_ngx__WEBPACK_IMPORTED_MODULE_12__["Crop"],
+            _ionic_native_image_picker_ngx__WEBPACK_IMPORTED_MODULE_13__["ImagePicker"]])
     ], GalleryPage);
     return GalleryPage;
 }());
